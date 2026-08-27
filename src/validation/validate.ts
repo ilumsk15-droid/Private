@@ -156,12 +156,14 @@ export function validateIssue(
     }
 
     // ---- 画像 ----
+    // 未登録枠はページ単位でまとめて1件にする（雛形ページで同じ警告が並ぶのを避ける）
+    const missingCount = images.filter((i) => !i.src).length;
+    if (missingCount) {
+      warn('image.missing', `P${p.pageNumber} に未登録の画像枠が ${missingCount} 箇所あります`, p.pageNumber,
+        '誌面にはプレースホルダーが表示されます。入稿前に必ず差し替えてください');
+    }
     for (const img of images) {
-      if (!img.src) {
-        warn('image.missing', `P${p.pageNumber} に未登録の画像枠があります`, p.pageNumber,
-          '誌面にはプレースホルダーが表示されます。入稿前に必ず差し替えてください');
-        continue;
-      }
+      if (!img.src) continue;
       if (!img.alt || !img.alt.trim()) {
         warn('image.alt', `P${p.pageNumber} の画像 ${img.src} に alt がありません`, p.pageNumber);
       }

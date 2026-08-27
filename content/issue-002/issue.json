@@ -1,0 +1,2932 @@
+{
+  "id": "issue-002",
+  "issueLine": "ISSUE 002",
+  "title": "つくり続ける人の設計図",
+  "subtitle": "巻頭大特集：湊 ハルキ",
+  "releaseDate": "2026年5月28日",
+  "pageCount": 64,
+  "qr": {
+    "trackingBase": null,
+    "trackingParams": {
+      "utm_source": "magazine",
+      "utm_medium": "print",
+      "utm_campaign": "issue-002"
+    }
+  },
+  "sections": [
+    {
+      "id": "cover",
+      "title": "COVER",
+      "titleEn": "COVER",
+      "color": "#C8102E"
+    },
+    {
+      "id": "front",
+      "title": "OPENING",
+      "titleEn": "OPENING",
+      "color": "#B99049"
+    },
+    {
+      "id": "feature",
+      "title": "巻頭特集 湊 ハルキ",
+      "titleEn": "COVER FEATURE",
+      "color": "#C8102E"
+    },
+    {
+      "id": "half",
+      "title": "INFLUENCERS NOW",
+      "titleEn": "SECOND HALF",
+      "color": "#4A6D9B"
+    },
+    {
+      "id": "ranking",
+      "title": "ランキング",
+      "titleEn": "THE INFLUENCE",
+      "color": "#3F6B5A"
+    },
+    {
+      "id": "ad",
+      "title": "ADVERTISEMENT",
+      "titleEn": "AD",
+      "color": "#8A5A78"
+    },
+    {
+      "id": "back",
+      "title": "BACK MATTER",
+      "titleEn": "BACK",
+      "color": "#6C6F78"
+    }
+  ],
+  "pages": [
+    {
+      "template": "cover-portrait",
+      "section": "cover",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "note": "P1 表紙",
+      "data": {
+        "issueLine": "ISSUE 002",
+        "dateLine": "2026年5月28日",
+        "priceLine": "¥1,800 (税込)",
+        "barcode": true,
+        "image": {
+          "src": "/images/people/minato-haruki/cover.svg",
+          "alt": "湊ハルキの表紙用ポートレート",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 48,
+            "y": 34
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 216
+        },
+        "headline": "影響力は、\nどこから来るのか",
+        "headlineEn": "THE ANATOMY OF INFLUENCE",
+        "subhead": "動画とビジネスの境界を消した男、湊ハルキの23年",
+        "coverLines": [
+          {
+            "text": "巻頭大特集｜湊 ハルキ　YouTuber／経営者",
+            "emphasis": "l",
+            "accent": true
+          },
+          {
+            "text": "ロングインタビュー　「数字を追うのをやめた日」",
+            "emphasis": "m",
+            "accent": false
+          },
+          {
+            "text": "編集部が選ぶ名言8",
+            "emphasis": "s",
+            "accent": false
+          }
+        ]
+      }
+    },
+    {
+      "template": "ad-single",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": true,
+        "draft": true
+      },
+      "note": "P2 表2広告",
+      "data": {
+        "label": "広告",
+        "brand": "（未入稿）ブランド名 1",
+        "copy": "（未入稿）ここに広告コピーが入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "body": "（未入稿）商品・サービスの説明",
+        "url": "",
+        "image": {
+          "src": null,
+          "alt": "広告ビジュアル",
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "template": "feature-door",
+      "section": "feature",
+      "span": 1,
+      "surface": "dark",
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "note": "P3 特集扉",
+      "data": {
+        "eyebrow": "ISSUE 002 / COVER FEATURE",
+        "title": "影響力は、\nどこから来るのか",
+        "titleEn": "THE ANATOMY OF INFLUENCE",
+        "lead": "動画とビジネスの境界を消した男、湊ハルキの23年",
+        "image": {
+          "src": "/images/people/minato-haruki/hero-spread.svg",
+          "alt": "湊ハルキの大型ポートレート",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 38,
+            "y": 35
+          },
+          "fit": "cover",
+          "spread": true,
+          "gutterShift": 0,
+          "placedWidthMm": 426
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "template": "contents",
+      "section": "front",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "note": "P4-5 目次（生成時に自動作成）",
+      "data": {
+        "title": "目次",
+        "titleEn": "CONTENTS",
+        "image": {
+          "src": "/images/people/minato-haruki/gallery-01.svg",
+          "alt": "ギャラリー写真1",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 105
+        },
+        "note": "掲載内容・ページは編集の都合により変更となる場合があります。本誌の一部はAIによる生成・編集を経て制作されています。",
+        "entries": [
+          {
+            "page": 6,
+            "section": "OPENING",
+            "kicker": "EDITOR'S LETTER",
+            "title": "編集長から"
+          },
+          {
+            "page": 8,
+            "section": "COVER FEATURE",
+            "kicker": "PROLOGUE",
+            "title": "巻頭大特集：湊 ハルキ"
+          },
+          {
+            "page": 10,
+            "section": "COVER FEATURE",
+            "kicker": "PORTRAIT",
+            "title": "湊 ハルキという現象"
+          },
+          {
+            "page": 12,
+            "section": "COVER FEATURE",
+            "kicker": "PROFILE",
+            "title": "湊 ハルキとは何者か"
+          },
+          {
+            "page": 14,
+            "section": "COVER FEATURE",
+            "kicker": "INTERVIEW 1",
+            "title": "数字を追うのを\nやめた日"
+          },
+          {
+            "page": 16,
+            "section": "COVER FEATURE",
+            "kicker": "INTERVIEW 2",
+            "title": "会社をやると、\n動画が変わる"
+          },
+          {
+            "page": 18,
+            "section": "COVER FEATURE",
+            "kicker": "CHRONICLE",
+            "title": "湊 ハルキの歩み"
+          },
+          {
+            "page": 20,
+            "section": "COVER FEATURE",
+            "kicker": "NUMBERS",
+            "title": "数字で見る湊 ハルキ"
+          },
+          {
+            "page": 22,
+            "section": "COVER FEATURE",
+            "kicker": "BUSINESS",
+            "title": "事業・活動実績"
+          },
+          {
+            "page": 23,
+            "section": "COVER FEATURE",
+            "kicker": "NETWORK",
+            "title": "人物相関図"
+          },
+          {
+            "page": 24,
+            "section": "COVER FEATURE",
+            "kicker": "TURNING POINT",
+            "title": "登録者ゼロからの三度目"
+          },
+          {
+            "page": 26,
+            "section": "COVER FEATURE",
+            "kicker": "A DAY",
+            "title": "ある一日"
+          },
+          {
+            "page": 27,
+            "section": "COVER FEATURE",
+            "kicker": "TOOLS",
+            "title": "仕事道具"
+          },
+          {
+            "page": 28,
+            "section": "COVER FEATURE",
+            "kicker": "WORDS",
+            "title": "編集部が選ぶ名言"
+          },
+          {
+            "page": 30,
+            "section": "COVER FEATURE",
+            "kicker": "VOICES",
+            "title": "湊 ハルキを知る人たち"
+          },
+          {
+            "page": 31,
+            "section": "COVER FEATURE",
+            "kicker": "WATCH",
+            "title": "この動画から見る"
+          },
+          {
+            "page": 32,
+            "section": "COVER FEATURE",
+            "kicker": "Q & A",
+            "title": "これからの話"
+          },
+          {
+            "page": 36,
+            "section": "SECOND HALF",
+            "kicker": "DIALOGUE",
+            "title": "対談"
+          },
+          {
+            "page": 38,
+            "section": "SECOND HALF",
+            "kicker": "ROUNDTABLE",
+            "title": "座談会"
+          },
+          {
+            "page": 40,
+            "section": "SECOND HALF",
+            "kicker": "AI DIALOGUE",
+            "title": "AIバーチャル対談"
+          },
+          {
+            "page": 44,
+            "section": "THE INFLUENCE",
+            "kicker": "TOP 10",
+            "title": "影響力ランキング TOP10"
+          },
+          {
+            "page": 46,
+            "section": "THE INFLUENCE",
+            "kicker": "TOP 30",
+            "title": "影響力ランキング 11–30位"
+          },
+          {
+            "page": 49,
+            "section": "THE INFLUENCE",
+            "kicker": "POSITIONING",
+            "title": "勢力図"
+          },
+          {
+            "page": 50,
+            "section": "THE INFLUENCE",
+            "kicker": "DATA",
+            "title": "データで見る市場"
+          },
+          {
+            "page": 53,
+            "section": "SECOND HALF",
+            "kicker": "MUST-WATCH",
+            "title": "編集部おすすめ動画"
+          },
+          {
+            "page": 55,
+            "section": "SECOND HALF",
+            "kicker": "REVIEW",
+            "title": "編集部レビュー"
+          },
+          {
+            "page": 56,
+            "section": "SECOND HALF",
+            "kicker": "SURVEY",
+            "title": "読者アンケート"
+          },
+          {
+            "page": 58,
+            "section": "SECOND HALF",
+            "kicker": "PROS & CONS",
+            "title": "賛成・反対"
+          },
+          {
+            "page": 59,
+            "section": "SECOND HALF",
+            "kicker": "COLUMN",
+            "title": "コラム"
+          },
+          {
+            "page": 60,
+            "section": "AD",
+            "kicker": "SPONSORED",
+            "title": "タイアップ記事"
+          },
+          {
+            "page": 62,
+            "section": "BACK",
+            "kicker": "NEXT",
+            "title": "次号予告"
+          },
+          {
+            "page": 63,
+            "section": "BACK",
+            "kicker": "COLOPHON",
+            "title": "奥付"
+          }
+        ]
+      }
+    },
+    {
+      "template": "editors-letter",
+      "section": "front",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "note": "P6-7 編集長メッセージ",
+      "data": {
+        "title": "編集長から",
+        "titleEn": "EDITOR'S LETTER",
+        "signature": {
+          "name": "白瀬 律",
+          "role": "編集長 / EDITOR IN CHIEF"
+        },
+        "image": {
+          "src": "/images/people/minato-haruki/scene-01.svg",
+          "alt": "取材カット1",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "body": "## この号について\n（未入稿）ここに編集長メッセージ本文が入ります。人物データまたはこの号のデータを編集して差し替えてください。\n\n## AIが編集長という制作思想\n本誌は構成と初稿の生成をAIが担い、取材と最終判断を人間が行う体制で制作しています。この号でどこまでをAIが担ったのかを、ここに具体的に書いてください。"
+      }
+    },
+    {
+      "template": "photo-spread-full",
+      "section": "feature",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "note": "P8-9 巻頭プロローグ",
+      "data": {
+        "image": {
+          "src": "/images/people/minato-haruki/scene-02.svg",
+          "alt": "取材カット2",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": true,
+          "gutterShift": 0,
+          "placedWidthMm": 426
+        },
+        "overlayTitle": "巻頭大特集：湊 ハルキ",
+        "overlayQuote": "バズらせ方は教えられる。続け方は、たぶん誰にも教えられない。",
+        "align": "left"
+      }
+    },
+    {
+      "template": "photo-spread-full",
+      "section": "feature",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "image": {
+          "src": "/images/people/minato-haruki/hero-spread.svg",
+          "alt": "湊ハルキの大型ポートレート",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 38,
+            "y": 35
+          },
+          "fit": "cover",
+          "spread": true,
+          "gutterShift": 0,
+          "placedWidthMm": 426
+        },
+        "overlayTitle": "湊 ハルキという現象",
+        "overlayQuote": "バズらせ方は教えられる。続け方は、たぶん誰にも教えられない。",
+        "align": "right"
+      }
+    },
+    {
+      "template": "profile",
+      "section": "feature",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "image": {
+          "src": "/images/people/minato-haruki/portrait.svg",
+          "alt": "湊ハルキのポートレート",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 32
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 105
+        },
+        "name": "湊 ハルキ",
+        "nameEn": "MINATO HARUKI",
+        "reading": "みなと・はるき",
+        "tags": [
+          "YouTuber",
+          "経営者",
+          "D2C",
+          "教育",
+          "1994年生まれ"
+        ],
+        "facts": [
+          {
+            "label": "生年",
+            "value": "1994年 静岡県浜松市"
+          },
+          {
+            "label": "チャンネル",
+            "value": "ミナトの実験室"
+          },
+          {
+            "label": "開設",
+            "value": "2017年4月"
+          },
+          {
+            "label": "登録者",
+            "value": "412万人"
+          },
+          {
+            "label": "運営会社",
+            "value": "株式会社ミナトラボ"
+          },
+          {
+            "label": "従業員",
+            "value": "58名（2026年2月時点）"
+          }
+        ],
+        "sns": [
+          {
+            "platform": "YouTube",
+            "handle": "@minato-lab",
+            "followers": "412万"
+          },
+          {
+            "platform": "X",
+            "handle": "@minato_lab",
+            "followers": "96万"
+          },
+          {
+            "platform": "Instagram",
+            "handle": "@minato.lab",
+            "followers": "51万"
+          },
+          {
+            "platform": "TikTok",
+            "handle": "@minatolab",
+            "followers": "188万"
+          }
+        ],
+        "body": "静岡県浜松市生まれ。実家は精密部品の町工場で、幼少期から旋盤の音を聞いて育った。高校卒業後に上京し、映像制作会社でアシスタントとして三年間働く。二〇一七年、貯金四十万円で最初のチャンネル「ミナトの実験室」を開設した。\n初期は工業用の機械や素材を使った検証動画が中心だった。三年で登録者は八十万人に達したが、二〇二〇年に一度すべての動画を非公開にしている。「数字のために作りたくないものを作っていた」と本人は振り返る。\n二〇二一年に再開したチャンネルは、検証の対象を「モノ」から「仕組み」へ移した。物流、原価、広告費、在庫。視聴者が普段は見ない数字を画面に出す構成が支持を集め、二〇二四年に登録者四百万人を突破した。\n現在は動画制作のかたわら、D2Cブランド、教育事業、受託制作、投資の四つを手がける。「動画は実験室で、会社は工場」というのが本人の説明だ。"
+      }
+    },
+    {
+      "template": "interview-long",
+      "section": "feature",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "数字を追うのを\nやめた日",
+        "titleEn": "INTERVIEW 01",
+        "lead": "登録者八十万人。伸ばし方が分かった瞬間に、彼は全部の動画を消した。その一年間、何をしていたのか。",
+        "columns": 3,
+        "pullQuote": "型が分かるというのは、実は危険な状態だと思う。",
+        "image": {
+          "src": "/images/people/minato-haruki/scene-03.svg",
+          "alt": "取材カット3",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "body": {
+          "$ref": "@people/minato-haruki/interview-1.md"
+        }
+      }
+    },
+    {
+      "template": "interview-long",
+      "section": "feature",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "会社をやると、\n動画が変わる",
+        "titleEn": "INTERVIEW 02",
+        "lead": "五十八人の給料。四つの事業。作る側に回ってから、彼の言葉は明らかに慎重になった。",
+        "columns": 3,
+        "pullQuote": "批評する側から、作る側に立場が変わると、言葉が慎重になる。",
+        "image": {
+          "src": "/images/people/minato-haruki/scene-04.svg",
+          "alt": "取材カット4",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "body": {
+          "$ref": "@people/minato-haruki/interview-2.md"
+        }
+      }
+    },
+    {
+      "template": "timeline",
+      "section": "feature",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "湊 ハルキの歩み",
+        "titleEn": "CHRONICLE",
+        "lead": "転機がどこにあったのかを、年表で追う。",
+        "image": {
+          "src": "/images/people/minato-haruki/scene-05.svg",
+          "alt": "取材カット5",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "items": [
+          {
+            "year": "2003",
+            "title": "父の工場で旋盤を触る",
+            "body": "小学三年生。夏休みの自由研究で作った金属コマが市の展覧会に選ばれる。",
+            "highlight": false
+          },
+          {
+            "year": "2013",
+            "title": "上京、映像制作会社へ",
+            "body": "高校卒業後、都内の制作会社にアシスタントとして入社。三年間、機材車の運転と照明を担当。",
+            "highlight": false
+          },
+          {
+            "year": "2017",
+            "month": "04",
+            "title": "「ミナトの実験室」開設",
+            "body": "貯金四十万円で機材を購入。最初の動画は工業用接着剤の耐久検証で、再生数は三百二十回。",
+            "highlight": true
+          },
+          {
+            "year": "2018",
+            "title": "素材データを全損",
+            "body": "外付けドライブの故障で二年分の素材を失う。以降、三重バックアップを徹底。",
+            "highlight": false
+          },
+          {
+            "year": "2019",
+            "title": "登録者50万人",
+            "body": "検証系の枠組みが固まり、企業案件の依頼が月に十件を超える。",
+            "highlight": false
+          },
+          {
+            "year": "2020",
+            "month": "03",
+            "title": "全動画を非公開に",
+            "body": "登録者八十万人の時点で活動を一時停止。一年間、撮影と取材だけを続ける。",
+            "highlight": true
+          },
+          {
+            "year": "2021",
+            "month": "05",
+            "title": "再開、一本目は42分",
+            "body": "物流倉庫の内側を扱った長尺動画で復帰。二週間で二百万回再生。",
+            "highlight": true
+          },
+          {
+            "year": "2022",
+            "title": "株式会社ミナトラボ設立",
+            "body": "社員四名でスタート。自社ブランド第一弾の工具箱を発売。",
+            "highlight": false
+          },
+          {
+            "year": "2023",
+            "month": "08",
+            "title": "収益化が二か月停止",
+            "body": "権利申し立てを受けチャンネル収益が停止。この経験を機に収益源を四事業へ分散。",
+            "highlight": true
+          },
+          {
+            "year": "2024",
+            "month": "11",
+            "title": "登録者400万人",
+            "body": "教育事業の受講者が累計二万人を突破。社員数は五十名に。",
+            "highlight": false
+          },
+          {
+            "year": "2025",
+            "title": "投資事業を開始",
+            "body": "若手クリエイター向けの制作資金提供プログラムを設立。初年度は十二組を支援。",
+            "highlight": false
+          },
+          {
+            "year": "2026",
+            "month": "02",
+            "title": "社員58名、週2本を継続",
+            "body": "四事業体制が定着。動画本数は開設以来一度も月間六本を下回っていない。",
+            "highlight": false
+          }
+        ]
+      }
+    },
+    {
+      "template": "numbers",
+      "section": "feature",
+      "span": 2,
+      "surface": "alt",
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "数字で見る湊 ハルキ",
+        "titleEn": "BY THE NUMBERS",
+        "lead": "公開情報と取材をもとに編集部が集計した。",
+        "source": "出典：本人取材（2026年2月）、株式会社ミナトラボ提供資料、各プラットフォーム公開値。数値は取材時点のもの。",
+        "stats": [
+          {
+            "value": "412",
+            "unit": "万",
+            "label": "チャンネル登録者",
+            "note": "2026年2月時点"
+          },
+          {
+            "value": "1,284",
+            "unit": "本",
+            "label": "公開動画数",
+            "note": "非公開分を除く"
+          },
+          {
+            "value": "9.8",
+            "unit": "億回",
+            "label": "総再生回数"
+          },
+          {
+            "value": "58",
+            "unit": "名",
+            "label": "従業員数",
+            "note": "業務委託を除く"
+          },
+          {
+            "value": "4",
+            "unit": "事業",
+            "label": "事業領域"
+          },
+          {
+            "value": "31",
+            "unit": "%",
+            "label": "売上に占める広告収益",
+            "note": "2023年は71%"
+          },
+          {
+            "value": "42",
+            "unit": "分",
+            "label": "動画の平均尺",
+            "note": "2021年以降"
+          },
+          {
+            "value": "2",
+            "unit": "本/週",
+            "label": "公開ペース",
+            "note": "9年間維持"
+          }
+        ]
+      }
+    },
+    {
+      "template": "works",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "事業・活動実績",
+        "titleEn": "BUSINESS",
+        "lead": "何を作り、何で稼いでいるのかを並べる。",
+        "image": {
+          "src": "/images/people/minato-haruki/scene-06.svg",
+          "alt": "取材カット6",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "items": [
+          {
+            "name": "MINATO TOOLS",
+            "category": "D2C",
+            "since": "2022–",
+            "body": "工具・作業用品の自社ブランド。金型から国内生産にこだわり、原価構成をすべて動画で公開している。第一弾の工具箱は初回生産分が四日で完売した。",
+            "metric": "年商 11.2億円 / SKU 34"
+          },
+          {
+            "name": "実験室ラボ",
+            "category": "教育",
+            "since": "2023–",
+            "body": "映像制作と企画設計のオンライン講座。受講者は累計二万一千人。企業研修としての導入も進み、法人契約は現在四十七社。",
+            "metric": "受講者 21,000人 / 法人 47社"
+          },
+          {
+            "name": "ミナトラボ受託",
+            "category": "制作",
+            "since": "2022–",
+            "body": "企業のオウンドメディア向け動画制作。単なる受注ではなく「数字の見せ方」の設計から入るのが特徴で、リピート率は九割を超える。",
+            "metric": "年間 62案件 / リピート率 91%"
+          },
+          {
+            "name": "LAB FUND",
+            "category": "投資",
+            "since": "2025–",
+            "body": "若手クリエイターへの制作資金提供。返済は売上連動で、失敗しても個人債務にしない設計。初年度は十二組を支援した。",
+            "metric": "支援 12組 / 総額 8,400万円"
+          }
+        ]
+      }
+    },
+    {
+      "template": "relationship-map",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "湊 ハルキを取り巻く人々",
+        "titleEn": "NETWORK",
+        "lead": "一人で作っているように見えて、実際には複数の判断が入っている。",
+        "center": {
+          "name": "湊 ハルキ",
+          "role": "YouTuber／経営者"
+        },
+        "note": "図は本人および関係者への取材をもとに編集部が作成。関係の濃淡は掲載の都合上、簡略化している。",
+        "nodes": [
+          {
+            "name": "神谷 リョウ",
+            "role": "チーフ編集",
+            "relation": "創業メンバー",
+            "group": "core",
+            "angle": -90,
+            "distance": 0.62
+          },
+          {
+            "name": "戸田 まき",
+            "role": "D2C事業部長",
+            "relation": "元バイヤー",
+            "group": "core",
+            "angle": -30,
+            "distance": 0.78
+          },
+          {
+            "name": "沢渡 健",
+            "role": "CFO",
+            "relation": "2023年参画",
+            "group": "core",
+            "angle": 30,
+            "distance": 0.78
+          },
+          {
+            "name": "アカリ",
+            "role": "クリエイター",
+            "relation": "LAB FUND 1期",
+            "group": "sub",
+            "angle": 90,
+            "distance": 0.66
+          },
+          {
+            "name": "三隅 工業",
+            "role": "製造パートナー",
+            "relation": "金型・生産",
+            "group": "sub",
+            "angle": 150,
+            "distance": 0.8
+          },
+          {
+            "name": "白瀬 律",
+            "role": "本誌編集長",
+            "relation": "取材を通じて",
+            "group": "sub",
+            "angle": -150,
+            "distance": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "template": "feature-article",
+      "section": "feature",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "登録者ゼロからの三度目",
+        "titleEn": "TURNING POINT",
+        "lead": "事故、決断、そしてまた事故。三度のゼロが、いまの会社の形をつくった。",
+        "columns": 3,
+        "pullQuote": "あれがなかったら、いまも広告収益に八割依存していたと思う。",
+        "images": [
+          {
+            "src": "/images/people/minato-haruki/scene-07.svg",
+            "alt": "取材カット7",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 178
+          },
+          {
+            "src": "/images/people/minato-haruki/scene-08.svg",
+            "alt": "取材カット8",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 178
+          }
+        ],
+        "body": {
+          "$ref": "@people/minato-haruki/turning-point.md"
+        }
+      }
+    },
+    {
+      "template": "daily-schedule",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "ある一日",
+        "titleEn": "A DAY IN THE LIFE",
+        "lead": "撮影のない平日を追った。",
+        "image": {
+          "src": "/images/people/minato-haruki/scene-09.svg",
+          "alt": "取材カット9",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "note": "2026年2月12日（木）の行動を編集部が同行取材した記録。",
+        "items": [
+          {
+            "time": "05:40",
+            "title": "起床、倉庫へ",
+            "body": "出社前に自社倉庫に寄り、前日の出荷分を確認する。週三回の習慣。"
+          },
+          {
+            "time": "07:10",
+            "title": "企画メモ",
+            "body": "カフェで四十分。思いついた企画を一日十件書き出す決まりにしている。"
+          },
+          {
+            "time": "09:00",
+            "title": "編集チェック",
+            "body": "公開前の二本を通しで確認。指摘はコメントで返し、口頭では言わない。"
+          },
+          {
+            "time": "11:00",
+            "title": "全体会議",
+            "body": "三十分。各事業の数字だけを共有し、議論はしない。"
+          },
+          {
+            "time": "12:30",
+            "title": "取材対応",
+            "body": "本誌の取材。昼食を取りながら二時間。"
+          },
+          {
+            "time": "15:00",
+            "title": "工場と電話",
+            "body": "新SKUの金型について三隅工業と打ち合わせ。"
+          },
+          {
+            "time": "16:30",
+            "title": "撮影準備",
+            "body": "翌日の検証用に、素材を自分で計量して並べる。"
+          },
+          {
+            "time": "19:00",
+            "title": "帰宅、家族と食事",
+            "body": "週四日は必ず家で食べると決めている。"
+          },
+          {
+            "time": "21:30",
+            "title": "一人の編集時間",
+            "body": "自分の担当分を二時間。ここだけは他人に渡さない。"
+          },
+          {
+            "time": "23:30",
+            "title": "就寝",
+            "body": "睡眠は六時間。以前は四時間だったが、判断が鈍ると気づいてやめた。"
+          }
+        ]
+      }
+    },
+    {
+      "template": "gear",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "仕事道具",
+        "titleEn": "TOOLS OF THE TRADE",
+        "lead": "毎日触るものだけを見せてもらった。",
+        "note": "",
+        "items": [
+          {
+            "name": "計量スケール 0.01g",
+            "brand": "TANIYA",
+            "body": "検証動画の信頼性はここで決まる。同型を三台持ち、毎月校正に出している。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-01.svg",
+              "alt": "計量スケール 0.01gの写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          },
+          {
+            "name": "旋盤（卓上型）",
+            "brand": "MISUMI WORKS",
+            "body": "実家の工場と同じ型。自社製品の試作は必ずこれで一度削る。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-02.svg",
+              "alt": "旋盤（卓上型）の写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          },
+          {
+            "name": "ハンディカム",
+            "brand": "SONY",
+            "body": "取材の記録用。画質より起動の速さで選んだ。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-03.svg",
+              "alt": "ハンディカムの写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          },
+          {
+            "name": "三色ボールペン",
+            "brand": "無印良品",
+            "body": "企画メモ専用。赤は却下、青は保留、黒は採用。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-04.svg",
+              "alt": "三色ボールペンの写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          },
+          {
+            "name": "A6方眼ノート",
+            "brand": "ロディア",
+            "body": "一日十件の企画を書く。年間で十二冊使う。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-05.svg",
+              "alt": "A6方眼ノートの写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          },
+          {
+            "name": "耐熱グローブ",
+            "brand": "MINATO TOOLS",
+            "body": "自社製品の第二弾。試作を四十回やり直した。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-06.svg",
+              "alt": "耐熱グローブの写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          },
+          {
+            "name": "ノイズキャンセリングヘッドホン",
+            "brand": "BOSE",
+            "body": "編集用。移動中は必ずこれで音だけ確認する。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-07.svg",
+              "alt": "ノイズキャンセリングヘッドホンの写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          },
+          {
+            "name": "測定用マイクロスコープ",
+            "brand": "KEYENCE",
+            "body": "破断面を見るために導入。動画の説得力が一段変わった。",
+            "image": {
+              "src": "/images/people/minato-haruki/gear-08.svg",
+              "alt": "測定用マイクロスコープの写真",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 44
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "quote-collection",
+      "section": "feature",
+      "span": 2,
+      "surface": "alt",
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "編集部が選ぶ名言",
+        "titleEn": "WORDS THAT STAY",
+        "lead": "取材と過去の発言から編集部が選んだ。",
+        "quotes": [
+          {
+            "text": "バズらせ方は教えられる。続け方は、たぶん誰にも教えられない。",
+            "source": "INTERVIEW / P14",
+            "context": "再開後の一本目について聞いたときの答え。"
+          },
+          {
+            "text": "数字のために作りたくないものを作っていた。あれは仕事じゃなくて作業だった。",
+            "source": "2020年の活動停止について"
+          },
+          {
+            "text": "批評する側から作る側に立場が変わると、言葉が慎重になる。",
+            "source": "自社ブランド立ち上げ後"
+          },
+          {
+            "text": "失敗を出せない人は、次に何を作っても信用されない。",
+            "source": "収益停止からの復帰動画"
+          },
+          {
+            "text": "個人の影響力で人を雇うのは、綱渡りに近い。",
+            "source": "事業を四つに分けた理由"
+          },
+          {
+            "text": "長さは問題じゃない。最後まで見る理由があるかどうかだけだ。",
+            "source": "42分動画の反響について"
+          },
+          {
+            "text": "人は成功の話に飽きている。",
+            "source": "在庫三千個の動画について"
+          },
+          {
+            "text": "再現できるということは、そこから先に発見がないということだ。",
+            "source": "型が分かることの危うさ"
+          }
+        ]
+      }
+    },
+    {
+      "template": "voices",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "湊 ハルキを知る人たち",
+        "titleEn": "VOICES",
+        "lead": "近い距離にいる人たちの証言。",
+        "comments": [
+          {
+            "name": "神谷 リョウ",
+            "role": "チーフ編集",
+            "body": "一緒に始めた頃から、企画を却下する速さだけは変わらない。三秒で決める。理由は後から説明してくれる。",
+            "portrait": {
+              "src": "/images/people/minato-haruki/face-01.svg",
+              "alt": "神谷 リョウのポートレート",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 20
+            }
+          },
+          {
+            "name": "戸田 まき",
+            "role": "D2C事業部長",
+            "body": "原価を全部出すと言い出したときは反対しました。今は、あれがブランドの信用になっていると思います。",
+            "portrait": {
+              "src": "/images/people/minato-haruki/face-02.svg",
+              "alt": "戸田 まきのポートレート",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 20
+            }
+          },
+          {
+            "name": "沢渡 健",
+            "role": "CFO",
+            "body": "経営者としては臆病な方です。手元資金は常に半年分。派手に見えて、財務はかなり保守的。",
+            "portrait": {
+              "src": "/images/people/minato-haruki/face-03.svg",
+              "alt": "沢渡 健のポートレート",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 20
+            }
+          },
+          {
+            "name": "三隅 徹",
+            "role": "三隅工業 代表",
+            "body": "試作を四十回やり直した人は初めてでした。うちの職人が根負けしました。",
+            "portrait": {
+              "src": "/images/people/minato-haruki/face-04.svg",
+              "alt": "三隅 徹のポートレート",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 20
+            }
+          },
+          {
+            "name": "アカリ",
+            "role": "クリエイター",
+            "body": "返済が売上連動なので、失敗しても人生が終わらない。あの設計に救われました。",
+            "portrait": {
+              "src": "/images/people/minato-haruki/face-05.svg",
+              "alt": "アカリのポートレート",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 20
+            }
+          },
+          {
+            "name": "久保田 千夏",
+            "role": "広告代理店プランナー",
+            "body": "案件の相談で、まず断られる条件を先に言ってくる。結果的にそれが一番早い。",
+            "portrait": {
+              "src": "/images/people/minato-haruki/face-06.svg",
+              "alt": "久保田 千夏のポートレート",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 20
+            }
+          },
+          {
+            "name": "湊 みどり",
+            "role": "母",
+            "body": "小さい頃から、壊すのが好きな子でした。直すのも好きでしたけど。",
+            "portrait": {
+              "src": "/images/people/minato-haruki/face-07.svg",
+              "alt": "湊 みどりのポートレート",
+              "credit": "PHOTO: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 20
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "video-qr",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "この動画から見る",
+        "titleEn": "WATCH",
+        "lead": "QRから直接視聴できる。",
+        "videos": [
+          {
+            "title": "物流倉庫の内側を42分で全部見せる",
+            "body": "再開後の一本目。伸びなかった三日間の後、二週間で二百万回に達した転機の動画。",
+            "meta": {
+              "views": "412万回",
+              "date": "2021.05",
+              "length": "42:11"
+            },
+            "thumbnail": {
+              "src": "/images/people/minato-haruki/thumb-01.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            },
+            "qr": {
+              "url": "https://example.com/videos/warehouse-42",
+              "label": "本編を見る（42分）",
+              "size": 18
+            }
+          },
+          {
+            "title": "在庫を3000個抱えた話を全部します",
+            "body": "自社の失敗を数字ごと公開した回。企業案件の単価が二倍になったきっかけでもある。",
+            "meta": {
+              "views": "587万回",
+              "date": "2024.03",
+              "length": "38:47"
+            },
+            "thumbnail": {
+              "src": "/images/people/minato-haruki/thumb-02.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            },
+            "qr": {
+              "url": "https://example.com/videos/inventory-3000",
+              "label": "本編を見る（38分）",
+              "size": 18
+            }
+          },
+          {
+            "title": "3000円の商品、内訳を1円まで公開する",
+            "body": "原価構成をすべて開示するシリーズの初回。以降、同社の定番フォーマットになった。",
+            "meta": {
+              "views": "731万回",
+              "date": "2022.09",
+              "length": "29:03"
+            },
+            "thumbnail": {
+              "src": "/images/people/minato-haruki/thumb-03.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            },
+            "qr": {
+              "url": "https://example.com/videos/cost-breakdown",
+              "label": "本編を見る（29分）",
+              "size": 18
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "interview-qa",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "これからの話",
+        "titleEn": "WHAT’S NEXT",
+        "lead": "最後に聞いた。",
+        "image": {
+          "src": "/images/people/minato-haruki/scene-10.svg",
+          "alt": "取材カット10",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "qa": [
+          {
+            "q": "五年後、動画は続けていますか。",
+            "a": "続けています。本数は減っているかもしれないけど、辞める理由が今のところ見当たらない。週二本が週一本になっても、止まってはいないと思います。"
+          },
+          {
+            "q": "会社はどこまで大きくしますか。",
+            "a": "人数は増やさないつもりです。五十八人でだいたい限界だと感じている。これ以上増えると、僕が全員の顔と仕事を把握できなくなる。把握できない組織は、僕には運転できません。"
+          },
+          {
+            "q": "海外展開の予定は。",
+            "a": "製造の相談は来ています。ただ、動画のほうは翻訳しても本質が伝わらない気がしていて、まだ答えが出ていません。原価の話は国ごとに前提が違いすぎる。"
+          },
+          {
+            "q": "後進の育成についてはどう考えていますか。",
+            "a": "LAB FUNDがそれです。教えるより、金を出して失敗させるほうが早い。僕自身がそうやって学んだので。返済が売上連動なのは、失敗を怖がらせたくないからです。"
+          },
+          {
+            "q": "最後に。いま一番作りたいものは何ですか。",
+            "a": "自分の工場です。父の工場は畳んでしまったので。金型から製品まで、全部自分たちの手の中でやる。それができたら、たぶん動画の内容もまた変わると思う。"
+          }
+        ]
+      }
+    },
+    {
+      "template": "photo-gallery",
+      "section": "feature",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "もう一度、写真で",
+        "titleEn": "IN PICTURES",
+        "layout": "mosaic",
+        "images": [
+          {
+            "src": "/images/people/minato-haruki/gallery-01.svg",
+            "alt": "ギャラリー写真1",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 105
+          },
+          {
+            "src": "/images/people/minato-haruki/gallery-02.svg",
+            "alt": "ギャラリー写真2",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 105
+          },
+          {
+            "src": "/images/people/minato-haruki/gallery-03.svg",
+            "alt": "ギャラリー写真3",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 105
+          },
+          {
+            "src": "/images/people/minato-haruki/gallery-04.svg",
+            "alt": "ギャラリー写真4",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 105
+          },
+          {
+            "src": "/images/people/minato-haruki/gallery-05.svg",
+            "alt": "ギャラリー写真5",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 105
+          },
+          {
+            "src": "/images/people/minato-haruki/gallery-06.svg",
+            "alt": "ギャラリー写真6",
+            "credit": "PHOTO: THE INFLUENCER",
+            "focus": {
+              "x": 50,
+              "y": 50
+            },
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0,
+            "placedWidthMm": 105
+          }
+        ]
+      }
+    },
+    {
+      "template": "section-divider",
+      "section": "half",
+      "span": 1,
+      "surface": "dark",
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "number": "02",
+        "title": "influencers now",
+        "titleEn": "SECOND HALF",
+        "lead": "（未入稿）ここにこの章で何を扱うのかの説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "theme": "accent"
+      }
+    },
+    {
+      "template": "quote-solo",
+      "section": "half",
+      "span": 1,
+      "surface": "dark",
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "quote": {
+          "text": "バズらせ方は教えられる。続け方は、たぶん誰にも教えられない。",
+          "source": "INTERVIEW / P14"
+        },
+        "image": {
+          "src": "/images/people/minato-haruki/scene-11.svg",
+          "alt": "取材カット11",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "template": "dialogue-two",
+      "section": "half",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）対談タイトル",
+        "titleEn": "DIALOGUE",
+        "lead": "（未入稿）ここに対談のリード文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "speakers": [
+          {
+            "name": "（未入稿）話者A",
+            "role": "肩書"
+          },
+          {
+            "name": "（未入稿）話者B",
+            "role": "肩書"
+          }
+        ],
+        "turns": [
+          {
+            "speaker": 0,
+            "text": "（未入稿）ここに話者Aの発言が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          },
+          {
+            "speaker": 1,
+            "text": "（未入稿）ここに話者Bの発言が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          }
+        ]
+      }
+    },
+    {
+      "template": "roundtable",
+      "section": "half",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）座談会タイトル",
+        "titleEn": "ROUNDTABLE",
+        "lead": "（未入稿）ここに座談会のリード文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "speakers": [
+          {
+            "name": "（未入稿）話者A",
+            "role": "肩書"
+          },
+          {
+            "name": "（未入稿）話者B",
+            "role": "肩書"
+          },
+          {
+            "name": "（未入稿）話者C",
+            "role": "肩書"
+          }
+        ],
+        "turns": [
+          {
+            "speaker": 0,
+            "text": "（未入稿）ここに発言が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          },
+          {
+            "speaker": 1,
+            "text": "（未入稿）ここに発言が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          },
+          {
+            "speaker": 2,
+            "text": "（未入稿）ここに発言が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          }
+        ]
+      }
+    },
+    {
+      "template": "ai-dialogue",
+      "section": "half",
+      "span": 2,
+      "flags": {
+        "ai": true,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）AIバーチャル対談",
+        "titleEn": "AI VIRTUAL DIALOGUE",
+        "lead": "（未入稿）ここにこの対談の狙いが入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "disclosure": "【AI生成コンテンツ】本ページはAIが公開情報をもとに生成した架空の対話です。実在の人物による発言ではありません。生成後に編集部が内容を確認しています。",
+        "speakers": [
+          {
+            "name": "（未入稿）話者A",
+            "role": "AI生成の話者"
+          },
+          {
+            "name": "（未入稿）話者B",
+            "role": "AI生成の話者"
+          }
+        ],
+        "turns": [
+          {
+            "speaker": 0,
+            "text": "（未入稿）ここにAIが生成した発言が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          },
+          {
+            "speaker": 1,
+            "text": "（未入稿）ここにAIが生成した発言が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          }
+        ]
+      }
+    },
+    {
+      "template": "ad-spread",
+      "section": "ad",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": true,
+        "draft": true
+      },
+      "data": {
+        "label": "広告",
+        "brand": "（未入稿）ブランド名",
+        "copy": "（未入稿）ここに見開き広告のコピーが入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "body": "（未入稿）商品・サービスの説明",
+        "image": {
+          "src": null,
+          "alt": "見開き広告ビジュアル",
+          "fit": "cover",
+          "spread": true,
+          "gutterShift": 0,
+          "placedWidthMm": 426
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "template": "ranking-top10",
+      "section": "ranking",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "影響力ランキング\nTOP10",
+        "titleEn": "RANKING 1–10",
+        "lead": "（未入稿）ここにランキングの趣旨が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "criteria": "（未入稿）算出方法をここに明記してください。順位は編集部の見解であり、対象者の価値を保証するものではありません。",
+        "items": [
+          {
+            "rank": 1,
+            "name": "（未入稿）氏名 1",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "1位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 2,
+            "name": "（未入稿）氏名 2",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "2位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 3,
+            "name": "（未入稿）氏名 3",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "3位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 4,
+            "name": "（未入稿）氏名 4",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "4位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 5,
+            "name": "（未入稿）氏名 5",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "5位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 6,
+            "name": "（未入稿）氏名 6",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "6位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 7,
+            "name": "（未入稿）氏名 7",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "7位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 8,
+            "name": "（未入稿）氏名 8",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "8位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 9,
+            "name": "（未入稿）氏名 9",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "9位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "rank": 10,
+            "name": "（未入稿）氏名 10",
+            "category": "カテゴリ",
+            "score": "--",
+            "body": "（未入稿）ここに選出理由が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "10位のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "ranking-top30",
+      "section": "ranking",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "影響力ランキング\n11位〜30位",
+        "titleEn": "RANKING 11–30",
+        "lead": "（未入稿）ここにこの帯の傾向が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "criteria": "（未入稿）算出方法は前ページに準じます。",
+        "columns": 2,
+        "items": [
+          {
+            "rank": 11,
+            "name": "（未入稿）氏名 11",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 12,
+            "name": "（未入稿）氏名 12",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 13,
+            "name": "（未入稿）氏名 13",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 14,
+            "name": "（未入稿）氏名 14",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 15,
+            "name": "（未入稿）氏名 15",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 16,
+            "name": "（未入稿）氏名 16",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 17,
+            "name": "（未入稿）氏名 17",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 18,
+            "name": "（未入稿）氏名 18",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 19,
+            "name": "（未入稿）氏名 19",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 20,
+            "name": "（未入稿）氏名 20",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 21,
+            "name": "（未入稿）氏名 21",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 22,
+            "name": "（未入稿）氏名 22",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 23,
+            "name": "（未入稿）氏名 23",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 24,
+            "name": "（未入稿）氏名 24",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 25,
+            "name": "（未入稿）氏名 25",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 26,
+            "name": "（未入稿）氏名 26",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 27,
+            "name": "（未入稿）氏名 27",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 28,
+            "name": "（未入稿）氏名 28",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 29,
+            "name": "（未入稿）氏名 29",
+            "category": "カテゴリ",
+            "score": "--"
+          },
+          {
+            "rank": 30,
+            "name": "（未入稿）氏名 30",
+            "category": "カテゴリ",
+            "score": "--"
+          }
+        ]
+      }
+    },
+    {
+      "template": "ranking-detail",
+      "section": "ranking",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）詳細で扱う人物",
+        "titleEn": "RANK DETAIL",
+        "rank": 2,
+        "name": "（未入稿）氏名",
+        "category": "カテゴリ",
+        "image": {
+          "src": "/images/people/minato-haruki/scene-12.svg",
+          "alt": "取材カット12",
+          "credit": "PHOTO: THE INFLUENCER",
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 178
+        },
+        "body": "（未入稿）ここにその人物の解説が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "stats": [
+          {
+            "value": "--",
+            "label": "（未入稿）指標"
+          }
+        ]
+      }
+    },
+    {
+      "template": "positioning-map",
+      "section": "ranking",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "勢力図",
+        "titleEn": "POSITIONING MAP",
+        "lead": "（未入稿）ここに2軸の説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "axes": {
+          "x": {
+            "label": "（未入稿）横軸の意味",
+            "low": "低い",
+            "high": "高い"
+          },
+          "y": {
+            "label": "（未入稿）縦軸の意味",
+            "low": "低い",
+            "high": "高い"
+          }
+        },
+        "note": "編集部が公開情報をもとに相対的に配置したものです。",
+        "points": [
+          {
+            "name": "（未入稿）A",
+            "x": 30,
+            "y": 70
+          },
+          {
+            "name": "（未入稿）B",
+            "x": 70,
+            "y": 40,
+            "group": "sub"
+          }
+        ]
+      }
+    },
+    {
+      "template": "data-chart",
+      "section": "ranking",
+      "span": 2,
+      "surface": "alt",
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "データで見る市場",
+        "titleEn": "DATA",
+        "lead": "（未入稿）ここに何を示すグラフかが入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "source": "（未入稿）出典を明記してください。",
+        "charts": [
+          {
+            "type": "column",
+            "title": "（未入稿）推移",
+            "unit": "",
+            "series": [
+              {
+                "label": "2023",
+                "value": 1
+              },
+              {
+                "label": "2024",
+                "value": 2
+              },
+              {
+                "label": "2025",
+                "value": 3
+              }
+            ]
+          },
+          {
+            "type": "bar",
+            "title": "（未入稿）比較",
+            "unit": "",
+            "series": [
+              {
+                "label": "項目A",
+                "value": 3
+              },
+              {
+                "label": "項目B",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "type": "donut",
+            "title": "（未入稿）構成比",
+            "unit": "%",
+            "series": [
+              {
+                "label": "区分A",
+                "value": 60
+              },
+              {
+                "label": "区分B",
+                "value": 40
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "template": "comparison-table",
+      "section": "ranking",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）比較のテーマ",
+        "titleEn": "COMPARISON",
+        "lead": "（未入稿）ここに何を比較するかが入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "head": [
+          "",
+          "観点A",
+          "観点B",
+          "観点C"
+        ],
+        "rows": [
+          {
+            "label": "（未入稿）対象1",
+            "cells": [
+              "—",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "label": "（未入稿）対象2",
+            "cells": [
+              "—",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "label": "（未入稿）対象3",
+            "cells": [
+              "—",
+              "—",
+              "—"
+            ]
+          },
+          {
+            "label": "（未入稿）対象4",
+            "cells": [
+              "—",
+              "—",
+              "—"
+            ]
+          }
+        ],
+        "note": "編集部調べ。"
+      }
+    },
+    {
+      "template": "video-ranking",
+      "section": "half",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": false
+      },
+      "data": {
+        "title": "編集部おすすめ動画",
+        "titleEn": "MUST-WATCH",
+        "lead": "編集部が選んだ本数。",
+        "items": [
+          {
+            "rank": 1,
+            "title": "物流倉庫の内側を42分で全部見せる",
+            "channel": "湊 ハルキ",
+            "views": "412万回",
+            "body": "再開後の一本目。伸びなかった三日間の後、二週間で二百万回に達した転機の動画。",
+            "thumbnail": {
+              "src": "/images/people/minato-haruki/thumb-01.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            },
+            "qr": {
+              "url": "https://example.com/videos/warehouse-42",
+              "label": "本編を見る（42分）",
+              "size": 18
+            }
+          },
+          {
+            "rank": 2,
+            "title": "在庫を3000個抱えた話を全部します",
+            "channel": "湊 ハルキ",
+            "views": "587万回",
+            "body": "自社の失敗を数字ごと公開した回。企業案件の単価が二倍になったきっかけでもある。",
+            "thumbnail": {
+              "src": "/images/people/minato-haruki/thumb-02.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            },
+            "qr": {
+              "url": "https://example.com/videos/inventory-3000",
+              "label": "本編を見る（38分）",
+              "size": 18
+            }
+          },
+          {
+            "rank": 3,
+            "title": "3000円の商品、内訳を1円まで公開する",
+            "channel": "湊 ハルキ",
+            "views": "731万回",
+            "body": "原価構成をすべて開示するシリーズの初回。以降、同社の定番フォーマットになった。",
+            "thumbnail": {
+              "src": "/images/people/minato-haruki/thumb-03.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            },
+            "qr": {
+              "url": "https://example.com/videos/cost-breakdown",
+              "label": "本編を見る（29分）",
+              "size": 18
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "video-thumbnails",
+      "section": "half",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "動画アーカイブ",
+        "titleEn": "ARCHIVE",
+        "lead": "代表作を一覧で。",
+        "items": [
+          {
+            "title": "（未入稿）動画 1",
+            "meta": "",
+            "thumbnail": {
+              "src": null,
+              "alt": "動画サムネイル1",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "title": "（未入稿）動画 2",
+            "meta": "",
+            "thumbnail": {
+              "src": null,
+              "alt": "動画サムネイル2",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "title": "（未入稿）動画 3",
+            "meta": "",
+            "thumbnail": {
+              "src": null,
+              "alt": "動画サムネイル3",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "title": "（未入稿）動画 4",
+            "meta": "",
+            "thumbnail": {
+              "src": null,
+              "alt": "動画サムネイル4",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "title": "（未入稿）動画 5",
+            "meta": "",
+            "thumbnail": {
+              "src": null,
+              "alt": "動画サムネイル5",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "title": "（未入稿）動画 6",
+            "meta": "",
+            "thumbnail": {
+              "src": null,
+              "alt": "動画サムネイル6",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "editors-review",
+      "section": "half",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "編集部レビュー",
+        "titleEn": "EDITORS' REVIEW",
+        "lead": "（未入稿）ここに今月取り上げるものが入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "items": [
+          {
+            "title": "（未入稿）対象 1",
+            "subtitle": "カテゴリ / 価格",
+            "score": 3.5,
+            "verdict": "（未入稿）ここにひとことの評が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "body": "（未入稿）ここにレビュー本文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "image": {
+              "src": "/images/people/minato-haruki/thumb-01.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            }
+          },
+          {
+            "title": "（未入稿）対象 2",
+            "subtitle": "カテゴリ / 価格",
+            "score": 3.5,
+            "verdict": "（未入稿）ここにひとことの評が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "body": "（未入稿）ここにレビュー本文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "image": {
+              "src": "/images/people/minato-haruki/thumb-02.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            }
+          },
+          {
+            "title": "（未入稿）対象 3",
+            "subtitle": "カテゴリ / 価格",
+            "score": 3.5,
+            "verdict": "（未入稿）ここにひとことの評が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "body": "（未入稿）ここにレビュー本文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "image": {
+              "src": "/images/people/minato-haruki/thumb-03.svg",
+              "alt": "動画サムネイル",
+              "credit": "IMAGE: 編集部",
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0,
+              "placedWidthMm": 56
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "survey-results",
+      "section": "half",
+      "span": 2,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）アンケート企画",
+        "titleEn": "READER SURVEY",
+        "lead": "（未入稿）ここに調査の趣旨が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "sampleNote": "（未入稿）調査期間・有効回答数・調査方法を記載",
+        "questions": [
+          {
+            "q": "（未入稿）設問1",
+            "unit": "%",
+            "options": [
+              {
+                "label": "選択肢A",
+                "value": 50
+              },
+              {
+                "label": "選択肢B",
+                "value": 50
+              }
+            ]
+          },
+          {
+            "q": "（未入稿）設問2",
+            "unit": "%",
+            "options": [
+              {
+                "label": "選択肢A",
+                "value": 60
+              },
+              {
+                "label": "選択肢B",
+                "value": 40
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "template": "pros-cons",
+      "section": "half",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）賛否のテーマ",
+        "titleEn": "PROS & CONS",
+        "topic": "（未入稿）ここに論点の説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "lead": "",
+        "pro": {
+          "label": "賛成",
+          "points": [
+            {
+              "title": "（未入稿）論拠",
+              "body": "（未入稿）ここに説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+            }
+          ]
+        },
+        "con": {
+          "label": "反対",
+          "points": [
+            {
+              "title": "（未入稿）論拠",
+              "body": "（未入稿）ここに説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+            }
+          ]
+        },
+        "conclusion": "（未入稿）ここに編集部の見立てが入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+      }
+    },
+    {
+      "template": "column",
+      "section": "half",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "（未入稿）コラムのタイトル 2",
+        "titleEn": "COLUMN",
+        "author": {
+          "name": "（未入稿）筆者名",
+          "role": "肩書"
+        },
+        "body": "（未入稿）ここにコラム本文が入ります。人物データまたはこの号のデータを編集して差し替えてください。\n\n## 小見出し\n（未入稿）ここに続きの段落が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+      }
+    },
+    {
+      "template": "tie-up",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": true,
+        "draft": true
+      },
+      "data": {
+        "label": "タイアップ広告",
+        "brand": "（未入稿）ブランド名",
+        "title": "（未入稿）タイアップ記事のタイトル",
+        "titleEn": "SPONSORED",
+        "lead": "（未入稿）ここにリード文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "images": [
+          {
+            "src": null,
+            "alt": "タイアップ写真1",
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0
+          },
+          {
+            "src": null,
+            "alt": "タイアップ写真2",
+            "fit": "cover",
+            "spread": false,
+            "gutterShift": 0
+          }
+        ],
+        "body": "（未入稿）ここにタイアップ記事本文が入ります。人物データまたはこの号のデータを編集して差し替えてください。\n\n## 小見出し\n（未入稿）ここに続きの段落が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+      }
+    },
+    {
+      "template": "paid-profile",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": true,
+        "draft": true
+      },
+      "data": {
+        "label": "PR",
+        "title": "注目の人物",
+        "titleEn": "SPONSORED PROFILE",
+        "people": [
+          {
+            "name": "（未入稿）氏名 1",
+            "title": "肩書",
+            "org": "所属",
+            "body": "（未入稿）ここに紹介文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "掲載者1のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "name": "（未入稿）氏名 2",
+            "title": "肩書",
+            "org": "所属",
+            "body": "（未入稿）ここに紹介文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "掲載者2のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "name": "（未入稿）氏名 3",
+            "title": "肩書",
+            "org": "所属",
+            "body": "（未入稿）ここに紹介文が入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+            "portrait": {
+              "src": null,
+              "alt": "掲載者3のポートレート",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          },
+          {
+            "name": "掲載枠 募集中",
+            "title": "有料掲載枠",
+            "org": "",
+            "body": "この枠は有料掲載枠です。掲載をご希望の方は編集部までお問い合わせください。掲載内容は編集部の審査を経て決定します。",
+            "portrait": {
+              "src": null,
+              "alt": "掲載枠のプレースホルダー",
+              "fit": "cover",
+              "spread": false,
+              "gutterShift": 0
+            }
+          }
+        ]
+      }
+    },
+    {
+      "template": "next-issue",
+      "section": "back",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "次号予告",
+        "titleEn": "NEXT ISSUE",
+        "issueLine": "（未入稿）次号の号数",
+        "onSaleLine": "（未入稿）発売日",
+        "image": {
+          "src": null,
+          "alt": "次号のイメージ",
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0
+        },
+        "highlights": [
+          {
+            "title": "（未入稿）見どころ 1",
+            "body": "（未入稿）ここに内容の説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          },
+          {
+            "title": "（未入稿）見どころ 2",
+            "body": "（未入稿）ここに内容の説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          },
+          {
+            "title": "（未入稿）見どころ 3",
+            "body": "（未入稿）ここに内容の説明が入ります。人物データまたはこの号のデータを編集して差し替えてください。"
+          }
+        ]
+      }
+    },
+    {
+      "template": "colophon",
+      "section": "back",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": false,
+        "draft": true
+      },
+      "data": {
+        "title": "奥付",
+        "titleEn": "COLOPHON",
+        "issueLine": "ISSUE 002",
+        "staff": [
+          {
+            "role": "編集長",
+            "names": [
+              "白瀬 律"
+            ]
+          },
+          {
+            "role": "編集",
+            "names": [
+              "（未入稿）編集者名"
+            ]
+          },
+          {
+            "role": "アートディレクション",
+            "names": [
+              "（未入稿）担当者名"
+            ]
+          },
+          {
+            "role": "撮影",
+            "names": [
+              "（未入稿）撮影者名"
+            ]
+          },
+          {
+            "role": "AI編集支援",
+            "names": [
+              "構成生成・初稿作成・図版データ整形"
+            ]
+          }
+        ],
+        "imprint": [
+          {
+            "label": "発行",
+            "value": "THE INFLUENCER 編集部"
+          },
+          {
+            "label": "所在地",
+            "value": "（未入稿）住所"
+          },
+          {
+            "label": "印刷",
+            "value": "（未入稿）印刷会社名"
+          }
+        ],
+        "notices": [
+          "本誌の記事の一部は、AIによる構成生成および初稿作成を経て、編集部が確認・編集したうえで掲載しています。",
+          "本誌掲載のランキングは編集部独自の基準による見解であり、対象者の価値を保証するものではありません。",
+          "本誌記事および写真の無断転載を禁じます。",
+          "掲載内容は取材時点のものです。QRコードのリンク先は予告なく変更される場合があります。"
+        ]
+      }
+    },
+    {
+      "template": "cover-back-ad",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ai": false,
+        "ad": true,
+        "draft": true
+      },
+      "data": {
+        "label": "広告",
+        "brand": "（未入稿）ブランド名",
+        "copy": "（未入稿）ここに裏表紙のコピーが入ります。人物データまたはこの号のデータを編集して差し替えてください。",
+        "body": "（未入稿）商品・サービスの説明",
+        "image": {
+          "src": null,
+          "alt": "裏表紙の広告ビジュアル",
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0
+        },
+        "theme": "light"
+      }
+    }
+  ]
+}

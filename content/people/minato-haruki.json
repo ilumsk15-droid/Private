@@ -1,0 +1,1022 @@
+{
+  "id": "minato-haruki",
+  "name": "湊 ハルキ",
+  "nameEn": "MINATO HARUKI",
+  "reading": "みなと・はるき",
+  "role": "YouTuber／経営者",
+  "coverHeadline": "影響力は、\nどこから来るのか",
+  "coverHeadlineEn": "THE ANATOMY OF INFLUENCE",
+  "coverSubhead": "動画とビジネスの境界を消した男、湊ハルキの23年",
+  "tags": [
+    "YouTuber",
+    "経営者",
+    "D2C",
+    "教育",
+    "1994年生まれ"
+  ],
+  "bio": "静岡県浜松市生まれ。実家は精密部品の町工場で、幼少期から旋盤の音を聞いて育った。高校卒業後に上京し、映像制作会社でアシスタントとして三年間働く。二〇一七年、貯金四十万円で最初のチャンネル「ミナトの実験室」を開設した。\n初期は工業用の機械や素材を使った検証動画が中心だった。三年で登録者は八十万人に達したが、二〇二〇年に一度すべての動画を非公開にしている。「数字のために作りたくないものを作っていた」と本人は振り返る。\n二〇二一年に再開したチャンネルは、検証の対象を「モノ」から「仕組み」へ移した。物流、原価、広告費、在庫。視聴者が普段は見ない数字を画面に出す構成が支持を集め、二〇二四年に登録者四百万人を突破した。\n現在は動画制作のかたわら、D2Cブランド、教育事業、受託制作、投資の四つを手がける。「動画は実験室で、会社は工場」というのが本人の説明だ。",
+  "facts": [
+    {
+      "label": "生年",
+      "value": "1994年 静岡県浜松市"
+    },
+    {
+      "label": "チャンネル",
+      "value": "ミナトの実験室"
+    },
+    {
+      "label": "開設",
+      "value": "2017年4月"
+    },
+    {
+      "label": "登録者",
+      "value": "412万人"
+    },
+    {
+      "label": "運営会社",
+      "value": "株式会社ミナトラボ"
+    },
+    {
+      "label": "従業員",
+      "value": "58名（2026年2月時点）"
+    }
+  ],
+  "sns": [
+    {
+      "platform": "YouTube",
+      "handle": "@minato-lab",
+      "followers": "412万"
+    },
+    {
+      "platform": "X",
+      "handle": "@minato_lab",
+      "followers": "96万"
+    },
+    {
+      "platform": "Instagram",
+      "handle": "@minato.lab",
+      "followers": "51万"
+    },
+    {
+      "platform": "TikTok",
+      "handle": "@minatolab",
+      "followers": "188万"
+    }
+  ],
+  "stats": [
+    {
+      "value": "412",
+      "unit": "万",
+      "label": "チャンネル登録者",
+      "note": "2026年2月時点"
+    },
+    {
+      "value": "1,284",
+      "unit": "本",
+      "label": "公開動画数",
+      "note": "非公開分を除く"
+    },
+    {
+      "value": "9.8",
+      "unit": "億回",
+      "label": "総再生回数"
+    },
+    {
+      "value": "58",
+      "unit": "名",
+      "label": "従業員数",
+      "note": "業務委託を除く"
+    },
+    {
+      "value": "4",
+      "unit": "事業",
+      "label": "事業領域"
+    },
+    {
+      "value": "31",
+      "unit": "%",
+      "label": "売上に占める広告収益",
+      "note": "2023年は71%"
+    },
+    {
+      "value": "42",
+      "unit": "分",
+      "label": "動画の平均尺",
+      "note": "2021年以降"
+    },
+    {
+      "value": "2",
+      "unit": "本/週",
+      "label": "公開ペース",
+      "note": "9年間維持"
+    }
+  ],
+  "statsSource": "出典：本人取材（2026年2月）、株式会社ミナトラボ提供資料、各プラットフォーム公開値。数値は取材時点のもの。",
+  "timeline": [
+    {
+      "year": "2003",
+      "title": "父の工場で旋盤を触る",
+      "body": "小学三年生。夏休みの自由研究で作った金属コマが市の展覧会に選ばれる。",
+      "highlight": false
+    },
+    {
+      "year": "2013",
+      "title": "上京、映像制作会社へ",
+      "body": "高校卒業後、都内の制作会社にアシスタントとして入社。三年間、機材車の運転と照明を担当。",
+      "highlight": false
+    },
+    {
+      "year": "2017",
+      "month": "04",
+      "title": "「ミナトの実験室」開設",
+      "body": "貯金四十万円で機材を購入。最初の動画は工業用接着剤の耐久検証で、再生数は三百二十回。",
+      "highlight": true
+    },
+    {
+      "year": "2018",
+      "title": "素材データを全損",
+      "body": "外付けドライブの故障で二年分の素材を失う。以降、三重バックアップを徹底。",
+      "highlight": false
+    },
+    {
+      "year": "2019",
+      "title": "登録者50万人",
+      "body": "検証系の枠組みが固まり、企業案件の依頼が月に十件を超える。",
+      "highlight": false
+    },
+    {
+      "year": "2020",
+      "month": "03",
+      "title": "全動画を非公開に",
+      "body": "登録者八十万人の時点で活動を一時停止。一年間、撮影と取材だけを続ける。",
+      "highlight": true
+    },
+    {
+      "year": "2021",
+      "month": "05",
+      "title": "再開、一本目は42分",
+      "body": "物流倉庫の内側を扱った長尺動画で復帰。二週間で二百万回再生。",
+      "highlight": true
+    },
+    {
+      "year": "2022",
+      "title": "株式会社ミナトラボ設立",
+      "body": "社員四名でスタート。自社ブランド第一弾の工具箱を発売。",
+      "highlight": false
+    },
+    {
+      "year": "2023",
+      "month": "08",
+      "title": "収益化が二か月停止",
+      "body": "権利申し立てを受けチャンネル収益が停止。この経験を機に収益源を四事業へ分散。",
+      "highlight": true
+    },
+    {
+      "year": "2024",
+      "month": "11",
+      "title": "登録者400万人",
+      "body": "教育事業の受講者が累計二万人を突破。社員数は五十名に。",
+      "highlight": false
+    },
+    {
+      "year": "2025",
+      "title": "投資事業を開始",
+      "body": "若手クリエイター向けの制作資金提供プログラムを設立。初年度は十二組を支援。",
+      "highlight": false
+    },
+    {
+      "year": "2026",
+      "month": "02",
+      "title": "社員58名、週2本を継続",
+      "body": "四事業体制が定着。動画本数は開設以来一度も月間六本を下回っていない。",
+      "highlight": false
+    }
+  ],
+  "works": [
+    {
+      "name": "MINATO TOOLS",
+      "category": "D2C",
+      "since": "2022–",
+      "body": "工具・作業用品の自社ブランド。金型から国内生産にこだわり、原価構成をすべて動画で公開している。第一弾の工具箱は初回生産分が四日で完売した。",
+      "metric": "年商 11.2億円 / SKU 34"
+    },
+    {
+      "name": "実験室ラボ",
+      "category": "教育",
+      "since": "2023–",
+      "body": "映像制作と企画設計のオンライン講座。受講者は累計二万一千人。企業研修としての導入も進み、法人契約は現在四十七社。",
+      "metric": "受講者 21,000人 / 法人 47社"
+    },
+    {
+      "name": "ミナトラボ受託",
+      "category": "制作",
+      "since": "2022–",
+      "body": "企業のオウンドメディア向け動画制作。単なる受注ではなく「数字の見せ方」の設計から入るのが特徴で、リピート率は九割を超える。",
+      "metric": "年間 62案件 / リピート率 91%"
+    },
+    {
+      "name": "LAB FUND",
+      "category": "投資",
+      "since": "2025–",
+      "body": "若手クリエイターへの制作資金提供。返済は売上連動で、失敗しても個人債務にしない設計。初年度は十二組を支援した。",
+      "metric": "支援 12組 / 総額 8,400万円"
+    }
+  ],
+  "relations": {
+    "note": "図は本人および関係者への取材をもとに編集部が作成。関係の濃淡は掲載の都合上、簡略化している。",
+    "nodes": [
+      {
+        "name": "神谷 リョウ",
+        "role": "チーフ編集",
+        "relation": "創業メンバー",
+        "group": "core",
+        "angle": -90,
+        "distance": 0.62
+      },
+      {
+        "name": "戸田 まき",
+        "role": "D2C事業部長",
+        "relation": "元バイヤー",
+        "group": "core",
+        "angle": -30,
+        "distance": 0.78
+      },
+      {
+        "name": "沢渡 健",
+        "role": "CFO",
+        "relation": "2023年参画",
+        "group": "core",
+        "angle": 30,
+        "distance": 0.78
+      },
+      {
+        "name": "アカリ",
+        "role": "クリエイター",
+        "relation": "LAB FUND 1期",
+        "group": "sub",
+        "angle": 90,
+        "distance": 0.66
+      },
+      {
+        "name": "三隅 工業",
+        "role": "製造パートナー",
+        "relation": "金型・生産",
+        "group": "sub",
+        "angle": 150,
+        "distance": 0.8
+      },
+      {
+        "name": "白瀬 律",
+        "role": "本誌編集長",
+        "relation": "取材を通じて",
+        "group": "sub",
+        "angle": -150,
+        "distance": 0.8
+      }
+    ]
+  },
+  "schedule": [
+    {
+      "time": "05:40",
+      "title": "起床、倉庫へ",
+      "body": "出社前に自社倉庫に寄り、前日の出荷分を確認する。週三回の習慣。"
+    },
+    {
+      "time": "07:10",
+      "title": "企画メモ",
+      "body": "カフェで四十分。思いついた企画を一日十件書き出す決まりにしている。"
+    },
+    {
+      "time": "09:00",
+      "title": "編集チェック",
+      "body": "公開前の二本を通しで確認。指摘はコメントで返し、口頭では言わない。"
+    },
+    {
+      "time": "11:00",
+      "title": "全体会議",
+      "body": "三十分。各事業の数字だけを共有し、議論はしない。"
+    },
+    {
+      "time": "12:30",
+      "title": "取材対応",
+      "body": "本誌の取材。昼食を取りながら二時間。"
+    },
+    {
+      "time": "15:00",
+      "title": "工場と電話",
+      "body": "新SKUの金型について三隅工業と打ち合わせ。"
+    },
+    {
+      "time": "16:30",
+      "title": "撮影準備",
+      "body": "翌日の検証用に、素材を自分で計量して並べる。"
+    },
+    {
+      "time": "19:00",
+      "title": "帰宅、家族と食事",
+      "body": "週四日は必ず家で食べると決めている。"
+    },
+    {
+      "time": "21:30",
+      "title": "一人の編集時間",
+      "body": "自分の担当分を二時間。ここだけは他人に渡さない。"
+    },
+    {
+      "time": "23:30",
+      "title": "就寝",
+      "body": "睡眠は六時間。以前は四時間だったが、判断が鈍ると気づいてやめた。"
+    }
+  ],
+  "scheduleNote": "2026年2月12日（木）の行動を編集部が同行取材した記録。",
+  "gear": [
+    {
+      "name": "計量スケール 0.01g",
+      "brand": "TANIYA",
+      "body": "検証動画の信頼性はここで決まる。同型を三台持ち、毎月校正に出している。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-01.svg",
+        "alt": "計量スケール 0.01gの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "旋盤（卓上型）",
+      "brand": "MISUMI WORKS",
+      "body": "実家の工場と同じ型。自社製品の試作は必ずこれで一度削る。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-02.svg",
+        "alt": "旋盤（卓上型）の写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "ハンディカム",
+      "brand": "SONY",
+      "body": "取材の記録用。画質より起動の速さで選んだ。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-03.svg",
+        "alt": "ハンディカムの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "三色ボールペン",
+      "brand": "無印良品",
+      "body": "企画メモ専用。赤は却下、青は保留、黒は採用。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-04.svg",
+        "alt": "三色ボールペンの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "A6方眼ノート",
+      "brand": "ロディア",
+      "body": "一日十件の企画を書く。年間で十二冊使う。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-05.svg",
+        "alt": "A6方眼ノートの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "耐熱グローブ",
+      "brand": "MINATO TOOLS",
+      "body": "自社製品の第二弾。試作を四十回やり直した。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-06.svg",
+        "alt": "耐熱グローブの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "ノイズキャンセリングヘッドホン",
+      "brand": "BOSE",
+      "body": "編集用。移動中は必ずこれで音だけ確認する。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-07.svg",
+        "alt": "ノイズキャンセリングヘッドホンの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "測定用マイクロスコープ",
+      "brand": "KEYENCE",
+      "body": "破断面を見るために導入。動画の説得力が一段変わった。",
+      "image": {
+        "src": "/images/people/minato-haruki/gear-08.svg",
+        "alt": "測定用マイクロスコープの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    }
+  ],
+  "quotes": [
+    {
+      "text": "バズらせ方は教えられる。続け方は、たぶん誰にも教えられない。",
+      "source": "INTERVIEW / P14",
+      "context": "再開後の一本目について聞いたときの答え。"
+    },
+    {
+      "text": "数字のために作りたくないものを作っていた。あれは仕事じゃなくて作業だった。",
+      "source": "2020年の活動停止について"
+    },
+    {
+      "text": "批評する側から作る側に立場が変わると、言葉が慎重になる。",
+      "source": "自社ブランド立ち上げ後"
+    },
+    {
+      "text": "失敗を出せない人は、次に何を作っても信用されない。",
+      "source": "収益停止からの復帰動画"
+    },
+    {
+      "text": "個人の影響力で人を雇うのは、綱渡りに近い。",
+      "source": "事業を四つに分けた理由"
+    },
+    {
+      "text": "長さは問題じゃない。最後まで見る理由があるかどうかだけだ。",
+      "source": "42分動画の反響について"
+    },
+    {
+      "text": "人は成功の話に飽きている。",
+      "source": "在庫三千個の動画について"
+    },
+    {
+      "text": "再現できるということは、そこから先に発見がないということだ。",
+      "source": "型が分かることの危うさ"
+    }
+  ],
+  "voices": [
+    {
+      "name": "神谷 リョウ",
+      "role": "チーフ編集",
+      "body": "一緒に始めた頃から、企画を却下する速さだけは変わらない。三秒で決める。理由は後から説明してくれる。",
+      "portrait": {
+        "src": "/images/people/minato-haruki/face-01.svg",
+        "alt": "神谷 リョウのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "戸田 まき",
+      "role": "D2C事業部長",
+      "body": "原価を全部出すと言い出したときは反対しました。今は、あれがブランドの信用になっていると思います。",
+      "portrait": {
+        "src": "/images/people/minato-haruki/face-02.svg",
+        "alt": "戸田 まきのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "沢渡 健",
+      "role": "CFO",
+      "body": "経営者としては臆病な方です。手元資金は常に半年分。派手に見えて、財務はかなり保守的。",
+      "portrait": {
+        "src": "/images/people/minato-haruki/face-03.svg",
+        "alt": "沢渡 健のポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "三隅 徹",
+      "role": "三隅工業 代表",
+      "body": "試作を四十回やり直した人は初めてでした。うちの職人が根負けしました。",
+      "portrait": {
+        "src": "/images/people/minato-haruki/face-04.svg",
+        "alt": "三隅 徹のポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "アカリ",
+      "role": "クリエイター",
+      "body": "返済が売上連動なので、失敗しても人生が終わらない。あの設計に救われました。",
+      "portrait": {
+        "src": "/images/people/minato-haruki/face-05.svg",
+        "alt": "アカリのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "久保田 千夏",
+      "role": "広告代理店プランナー",
+      "body": "案件の相談で、まず断られる条件を先に言ってくる。結果的にそれが一番早い。",
+      "portrait": {
+        "src": "/images/people/minato-haruki/face-06.svg",
+        "alt": "久保田 千夏のポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "湊 みどり",
+      "role": "母",
+      "body": "小さい頃から、壊すのが好きな子でした。直すのも好きでしたけど。",
+      "portrait": {
+        "src": "/images/people/minato-haruki/face-07.svg",
+        "alt": "湊 みどりのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    }
+  ],
+  "videos": [
+    {
+      "title": "物流倉庫の内側を42分で全部見せる",
+      "body": "再開後の一本目。伸びなかった三日間の後、二週間で二百万回に達した転機の動画。",
+      "meta": {
+        "date": "2021.05",
+        "length": "42:11",
+        "views": "412万回"
+      },
+      "thumbnail": {
+        "src": "/images/people/minato-haruki/thumb-01.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      "qr": {
+        "url": "https://example.com/videos/warehouse-42",
+        "label": "本編を見る（42分）",
+        "size": 18
+      }
+    },
+    {
+      "title": "在庫を3000個抱えた話を全部します",
+      "body": "自社の失敗を数字ごと公開した回。企業案件の単価が二倍になったきっかけでもある。",
+      "meta": {
+        "date": "2024.03",
+        "length": "38:47",
+        "views": "587万回"
+      },
+      "thumbnail": {
+        "src": "/images/people/minato-haruki/thumb-02.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      "qr": {
+        "url": "https://example.com/videos/inventory-3000",
+        "label": "本編を見る（38分）",
+        "size": 18
+      }
+    },
+    {
+      "title": "3000円の商品、内訳を1円まで公開する",
+      "body": "原価構成をすべて開示するシリーズの初回。以降、同社の定番フォーマットになった。",
+      "meta": {
+        "date": "2022.09",
+        "length": "29:03",
+        "views": "731万回"
+      },
+      "thumbnail": {
+        "src": "/images/people/minato-haruki/thumb-03.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      "qr": {
+        "url": "https://example.com/videos/cost-breakdown",
+        "label": "本編を見る（29分）",
+        "size": 18
+      }
+    }
+  ],
+  "interviews": [
+    {
+      "title": "数字を追うのを\nやめた日",
+      "titleEn": "INTERVIEW 01",
+      "lead": "登録者八十万人。伸ばし方が分かった瞬間に、彼は全部の動画を消した。その一年間、何をしていたのか。",
+      "pullQuote": "型が分かるというのは、実は危険な状態だと思う。",
+      "body": {
+        "$ref": "@people/minato-haruki/interview-1.md"
+      }
+    },
+    {
+      "title": "会社をやると、\n動画が変わる",
+      "titleEn": "INTERVIEW 02",
+      "lead": "五十八人の給料。四つの事業。作る側に回ってから、彼の言葉は明らかに慎重になった。",
+      "pullQuote": "批評する側から、作る側に立場が変わると、言葉が慎重になる。",
+      "body": {
+        "$ref": "@people/minato-haruki/interview-2.md"
+      }
+    }
+  ],
+  "qa": [
+    {
+      "q": "五年後、動画は続けていますか。",
+      "a": "続けています。本数は減っているかもしれないけど、辞める理由が今のところ見当たらない。週二本が週一本になっても、止まってはいないと思います。"
+    },
+    {
+      "q": "会社はどこまで大きくしますか。",
+      "a": "人数は増やさないつもりです。五十八人でだいたい限界だと感じている。これ以上増えると、僕が全員の顔と仕事を把握できなくなる。把握できない組織は、僕には運転できません。"
+    },
+    {
+      "q": "海外展開の予定は。",
+      "a": "製造の相談は来ています。ただ、動画のほうは翻訳しても本質が伝わらない気がしていて、まだ答えが出ていません。原価の話は国ごとに前提が違いすぎる。"
+    },
+    {
+      "q": "後進の育成についてはどう考えていますか。",
+      "a": "LAB FUNDがそれです。教えるより、金を出して失敗させるほうが早い。僕自身がそうやって学んだので。返済が売上連動なのは、失敗を怖がらせたくないからです。"
+    },
+    {
+      "q": "最後に。いま一番作りたいものは何ですか。",
+      "a": "自分の工場です。父の工場は畳んでしまったので。金型から製品まで、全部自分たちの手の中でやる。それができたら、たぶん動画の内容もまた変わると思う。"
+    }
+  ],
+  "articles": [
+    {
+      "title": "登録者ゼロからの三度目",
+      "titleEn": "TURNING POINT",
+      "lead": "事故、決断、そしてまた事故。三度のゼロが、いまの会社の形をつくった。",
+      "pullQuote": "あれがなかったら、いまも広告収益に八割依存していたと思う。",
+      "body": {
+        "$ref": "@people/minato-haruki/turning-point.md"
+      }
+    }
+  ],
+  "photos": {
+    "cover": {
+      "src": "/images/people/minato-haruki/cover.svg",
+      "alt": "湊ハルキの表紙用ポートレート",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "focus": {
+        "x": 48,
+        "y": 34
+      },
+      "placedWidthMm": 216
+    },
+    "heroSpread": {
+      "src": "/images/people/minato-haruki/hero-spread.svg",
+      "alt": "湊ハルキの大型ポートレート",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": true,
+      "gutterShift": 0,
+      "focus": {
+        "x": 38,
+        "y": 35
+      },
+      "placedWidthMm": 426
+    },
+    "portrait": {
+      "src": "/images/people/minato-haruki/portrait.svg",
+      "alt": "湊ハルキのポートレート",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "focus": {
+        "x": 50,
+        "y": 32
+      },
+      "placedWidthMm": 105
+    },
+    "scenes": [
+      {
+        "src": "/images/people/minato-haruki/scene-01.svg",
+        "alt": "取材カット1",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-02.svg",
+        "alt": "取材カット2",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-03.svg",
+        "alt": "取材カット3",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-04.svg",
+        "alt": "取材カット4",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-05.svg",
+        "alt": "取材カット5",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-06.svg",
+        "alt": "取材カット6",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-07.svg",
+        "alt": "取材カット7",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-08.svg",
+        "alt": "取材カット8",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-09.svg",
+        "alt": "取材カット9",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-10.svg",
+        "alt": "取材カット10",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-11.svg",
+        "alt": "取材カット11",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      },
+      {
+        "src": "/images/people/minato-haruki/scene-12.svg",
+        "alt": "取材カット12",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 178
+      }
+    ],
+    "gallery": [
+      {
+        "src": "/images/people/minato-haruki/gallery-01.svg",
+        "alt": "ギャラリー写真1",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      },
+      {
+        "src": "/images/people/minato-haruki/gallery-02.svg",
+        "alt": "ギャラリー写真2",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      },
+      {
+        "src": "/images/people/minato-haruki/gallery-03.svg",
+        "alt": "ギャラリー写真3",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      },
+      {
+        "src": "/images/people/minato-haruki/gallery-04.svg",
+        "alt": "ギャラリー写真4",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      },
+      {
+        "src": "/images/people/minato-haruki/gallery-05.svg",
+        "alt": "ギャラリー写真5",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      },
+      {
+        "src": "/images/people/minato-haruki/gallery-06.svg",
+        "alt": "ギャラリー写真6",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      }
+    ],
+    "thumbnails": [
+      {
+        "src": "/images/people/minato-haruki/thumb-01.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-02.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-03.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-04.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-05.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-06.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-07.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-08.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-09.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-10.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-11.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      {
+        "src": "/images/people/minato-haruki/thumb-12.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      }
+    ]
+  },
+  "note": "創刊号の巻頭特集。架空の人物です。"
+}

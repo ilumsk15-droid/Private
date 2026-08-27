@@ -1,5 +1,5 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
-import { listIssueIds, loadIssue, assetExists } from '../content/browserLoader';
+import { useCallback, useEffect, useMemo, useState, useSyncExternalStore } from 'react';
+import { listIssueIds, loadIssue, assetExists, subscribe, contentVersion } from '../content/contentStore';
 import { magazineConfig } from '../config/magazine.config';
 import { validateIssue, summarize } from '../validation/validate';
 import { defaultGuides, type GuideState } from '../components/magazine/Guides';
@@ -8,14 +8,28 @@ export type ViewMode = 'cover' | 'page' | 'spread' | 'thumbs' | 'print';
 export type ZoomMode = 'fit' | 'actual';
 
 export function useMagazineState() {
-  const issueIds = useMemo(() => listIssueIds(), []);
+  // content/ が書き換わったら（アプリからの保存・号の生成）作り直す
+  const version = useSyncExternalStore(subscribe, contentVersion, contentVersion);
+  const issueIds = useMemo(() => listIssueIds(), [version]);
   const [issueId, setIssueId] = useState(issueIds[0] ?? '');
   const [view, setView] = useState<ViewMode>('spread');
   const [pageNumber, setPageNumber] = useState(1);
   const [zoom, setZoom] = useState<ZoomMode>('fit');
   const [guides, setGuides] = useState<GuideState>(defaultGuides);
 
-  const resolved = useMemo(() => (issueId ? loadIssue(issueId) : null), [issueId]);
+  useEffect(() => {
+    // 号が消えた／増えたときに選択を合わせる
+    if (issueIds.length && !issueIds.includes(issueId)) setIssueId(issueIds[0]);
+  }, [issueIds, issueId]);
+
+  const resolved = useMemo(() => {
+    if (!issueId || !issueIds.includes(issueId)) return null;
+    try {
+      return loadIssue(issueId);
+    } catch {
+      return null;
+    }
+  }, [issueId, issueIds, version]);
   const diagnostics = useMemo(
     () => (resolved ? validateIssue(resolved, magazineConfig, (src) => ({ exists: assetExists(src), vector: src.endsWith('.svg') })) : []),
     [resolved],
@@ -80,6 +94,6 @@ export function useMagazineState() {
     pageNumber, go, step,
     zoom, setZoom,
     guides, setGuides, toggleGuide,
-    resolved, diagnostics, summary, total,
+    resolved, diagnostics, summary, total, version,
   };
 }

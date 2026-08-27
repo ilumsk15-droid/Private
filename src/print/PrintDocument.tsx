@@ -4,7 +4,7 @@ import { ThemeStyle } from '../components/magazine/Theme';
 import { Page } from '../components/magazine/Page';
 import { Spread } from '../components/magazine/Spread';
 import { MarkSheet } from '../components/magazine/MarkSheet';
-import { loadIssue } from '../content/browserLoader';
+import { loadIssue } from '../content/contentStore';
 
 export interface PrintOptions {
   issueId: string;

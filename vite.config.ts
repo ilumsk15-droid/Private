@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { fileURLToPath, URL } from 'node:url';
+import { contentApi } from './vite-plugin-content-api';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), contentApi()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

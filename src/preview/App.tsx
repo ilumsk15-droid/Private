@@ -1,4 +1,7 @@
 import { useMemo, useState } from 'react';
+import { isApiAvailable } from '../content/contentStore';
+import { PeoplePanel } from '../editor/PeoplePanel';
+import { IssueWizard } from '../editor/IssueWizard';
 import { magazineConfig } from '../config/magazine.config';
 import { ThemeStyle } from '../components/magazine/Theme';
 import { Page } from '../components/magazine/Page';
@@ -10,14 +13,84 @@ import { useMagazineState } from './useMagazineState';
 import { Stage } from './Stage';
 import { Sidebar } from './Sidebar';
 
+type Mode = 'preview' | 'people' | 'new-issue';
+
 export default function App() {
   const s = useMagazineState();
   const [tab, setTab] = useState<'spine' | 'check'>('spine');
+  const [mode, setMode] = useState<Mode>('preview');
+  const [wizardPerson, setWizardPerson] = useState<string | undefined>(undefined);
+  const canEdit = isApiAvailable();
   // フックは早期returnより前に呼ぶ必要があるので、データ未読込でも安全に評価できる形にする
   const byPage = useMemo(() => pageIndexMap(s.resolved?.pages ?? []), [s.resolved]);
 
+  const modeNav = (
+    <div className="segmented segmented--mode">
+      {([
+        ['preview', '誌面プレビュー'],
+        ['people', '人物データ'],
+        ['new-issue', '号をつくる'],
+      ] as const).map(([m, label]) => (
+        <button key={m} data-active={mode === m} onClick={() => setMode(m)} disabled={!canEdit && m !== 'preview'}>
+          {label}
+        </button>
+      ))}
+    </div>
+  );
+
+  const brand = (
+    <div className="topbar__brand">
+      <b>{magazineConfig.magazine.titleEn}</b>
+      <span>誌面制作システム</span>
+    </div>
+  );
+
+  if (mode !== 'preview') {
+    return (
+      <div className="app">
+        <ThemeStyle config={magazineConfig} />
+        <header className="topbar">
+          {brand}
+          {modeNav}
+          {!canEdit && <span className="topbar__note">保存APIに接続できません（npm run preview で起動してください）</span>}
+        </header>
+        <div className="app__body app__body--editor">
+          {mode === 'people' && (
+            <PeoplePanel
+              onGenerate={(personId) => {
+                setWizardPerson(personId);
+                setMode('new-issue');
+              }}
+            />
+          )}
+          {mode === 'new-issue' && (
+            <IssueWizard
+              initialPersonId={wizardPerson}
+              onCreated={(issueId) => {
+                s.setIssueId(issueId);
+                s.go(1);
+                setMode('preview');
+              }}
+            />
+          )}
+        </div>
+      </div>
+    );
+  }
+
   if (!s.resolved) {
-    return <div className="app app--empty">content/ に号のデータがありません。</div>;
+    return (
+      <div className="app">
+        <ThemeStyle config={magazineConfig} />
+        <header className="topbar">
+          {brand}
+          {modeNav}
+        </header>
+        <div className="app--empty">
+          <p>まだ号がありません。「号をつくる」から作成してください。</p>
+        </div>
+      </div>
+    );
   }
 
   const resolved = s.resolved;
@@ -31,10 +104,8 @@ export default function App() {
       <ThemeStyle config={magazineConfig} overrides={issue.themeOverrides} />
 
       <header className="topbar">
-        <div className="topbar__brand">
-          <b>{magazineConfig.magazine.titleEn}</b>
-          <span>誌面制作システム</span>
-        </div>
+        {brand}
+        {modeNav}
 
         <select className="select" value={s.issueId} onChange={(e) => s.setIssueId(e.target.value)}>
           {s.issueIds.map((id) => (
@@ -100,7 +171,7 @@ export default function App() {
           onTab={setTab}
         />
 
-        <main className="viewer">
+        <main className="viewer mg-root">
           {s.view === 'thumbs' ? (
             <div className="thumbs">
               {resolved.spreads.map((sp) => (

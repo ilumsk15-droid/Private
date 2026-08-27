@@ -15,7 +15,8 @@
     "export:pages": "tsx scripts/export-pdf.ts --mode=pages",
     "export:spreads": "tsx scripts/export-pdf.ts --mode=spreads",
     "assets:placeholders": "tsx scripts/generate-placeholders.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "new:issue": "tsx scripts/new-issue.ts"
   },
   "dependencies": {
     "@fontsource/inter": "^5.3.0",
