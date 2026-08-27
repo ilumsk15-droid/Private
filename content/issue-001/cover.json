@@ -1,0 +1,44 @@
+{
+  "issueLine": "ISSUE 001",
+  "dateLine": "2026 SPRING",
+  "priceLine": "¥1,800 (税込)",
+  "barcode": true,
+  "image": {
+    "src": "/images/issue-001/cover-main.svg",
+    "alt": "特集人物のポートレート（表紙）",
+    "credit": "PHOTO: THE INFLUENCER",
+    "fit": "cover",
+    "spread": false,
+    "gutterShift": 0,
+    "focus": {
+      "x": 48,
+      "y": 34
+    },
+    "placedWidthMm": 216
+  },
+  "headline": "影響力は、\nどこから来るのか",
+  "headlineEn": "THE ANATOMY OF INFLUENCE",
+  "subhead": "動画とビジネスの境界を消した男、湊ハルキの23年",
+  "coverLines": [
+    {
+      "text": "巻頭大特集｜湊ハルキ　ミナトの実験室のつくり方",
+      "emphasis": "l",
+      "accent": true
+    },
+    {
+      "text": "ロングインタビュー　「数字を追うのをやめた日」",
+      "emphasis": "m",
+      "accent": false
+    },
+    {
+      "text": "インフルエンサー影響力ランキング TOP30",
+      "emphasis": "m",
+      "accent": false
+    },
+    {
+      "text": "AIバーチャル対談／勢力図2026／編集部が選ぶ名言27",
+      "emphasis": "s",
+      "accent": false
+    }
+  ]
+}

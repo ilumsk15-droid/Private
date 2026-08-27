@@ -1,0 +1,175 @@
+{
+  "title": "編集部おすすめ動画\nTOP8",
+  "titleEn": "MUST-WATCH 8",
+  "lead": "この一年に公開された作品から、編集部員八名がそれぞれ一本ずつ選んだ。",
+  "items": [
+    {
+      "rank": 1,
+      "title": "在庫を3000個抱えた話を全部します",
+      "channel": "ミナトの実験室",
+      "views": "587万回",
+      "body": "失敗の公開という手法の到達点。数字が一円単位で出てくる。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-04.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-1",
+        "label": "視聴する",
+        "size": 16
+      }
+    },
+    {
+      "rank": 2,
+      "title": "一人分の味噌汁を365日つくった",
+      "channel": "六花キッチン",
+      "views": "341万回",
+      "body": "反復そのものがコンテンツになることを証明した一本。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-05.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-2",
+        "label": "視聴する",
+        "size": 16
+      }
+    },
+    {
+      "rank": 3,
+      "title": "事業承継、断られ続けた3年",
+      "channel": "神楽坂レンの帳簿",
+      "views": "208万回",
+      "body": "取材対象に断られる過程まで含めて公開している。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-06.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-3",
+        "label": "視聴する",
+        "size": 16
+      }
+    },
+    {
+      "rank": 4,
+      "title": "縦型から長尺に移った理由",
+      "channel": "アカリ",
+      "views": "176万回",
+      "body": "作り手の世代交代を当事者の言葉で記録した価値がある。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-07.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-4",
+        "label": "視聴する",
+        "size": 16
+      }
+    },
+    {
+      "rank": 5,
+      "title": "損失1200万円の記録",
+      "channel": "鷲尾タケシ投資部",
+      "views": "294万回",
+      "body": "損失の内訳を月次で追い続けるシリーズの総集編。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-08.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-5",
+        "label": "視聴する",
+        "size": 16
+      }
+    },
+    {
+      "rank": 6,
+      "title": "同時接続12万人のその日",
+      "channel": "Mio & Rui",
+      "views": "512万回",
+      "body": "ライブの裏側を、機材トラブルも含めて再構成。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-09.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-6",
+        "label": "視聴する",
+        "size": 16
+      }
+    },
+    {
+      "rank": 7,
+      "title": "半導体工場、24時間",
+      "channel": "東雲コウ",
+      "views": "163万回",
+      "body": "撮影許可の取得に二年かかったという長期取材。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-10.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-7",
+        "label": "視聴する",
+        "size": 16
+      }
+    },
+    {
+      "rank": 8,
+      "title": "先生のための理科実験",
+      "channel": "鶴見あさひ",
+      "views": "98万回",
+      "body": "教員向けという狭さが、逆に強度を生んだ好例。",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-11.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/videos/pick-8",
+        "label": "視聴する",
+        "size": 16
+      }
+    }
+  ]
+}

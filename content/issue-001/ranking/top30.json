@@ -1,0 +1,129 @@
+{
+  "title": "影響力ランキング\n11位〜30位",
+  "titleEn": "THE INFLUENCE 30 / 11–30",
+  "lead": "上位十名に続く二十名。ジャンルの広がりが、この一年でもっとも大きく変化した部分だ。",
+  "columns": 2,
+  "criteria": "算出方法はP44に準じる。同点の場合は継続年数の長い順に掲載した。",
+  "items": [
+    {
+      "rank": 11,
+      "name": "久遠 サキ",
+      "category": "音楽",
+      "score": "78.2"
+    },
+    {
+      "rank": 12,
+      "name": "三ツ矢 ハル",
+      "category": "旅",
+      "score": "76.8"
+    },
+    {
+      "rank": 13,
+      "name": "園部 リク",
+      "category": "ガジェット",
+      "score": "75.4"
+    },
+    {
+      "rank": 14,
+      "name": "九条 まゆ",
+      "category": "美容",
+      "score": "74.0"
+    },
+    {
+      "rank": 15,
+      "name": "timo",
+      "category": "ゲーム",
+      "score": "72.6"
+    },
+    {
+      "rank": 16,
+      "name": "柏木 テツ",
+      "category": "建築",
+      "score": "71.2"
+    },
+    {
+      "rank": 17,
+      "name": "野々村 あい",
+      "category": "子育て",
+      "score": "69.8"
+    },
+    {
+      "rank": 18,
+      "name": "SHUN",
+      "category": "アート",
+      "score": "68.4"
+    },
+    {
+      "rank": 19,
+      "name": "氷室 ケイ",
+      "category": "医療",
+      "score": "67.0"
+    },
+    {
+      "rank": 20,
+      "name": "宮嶋 のぞみ",
+      "category": "法律",
+      "score": "65.6"
+    },
+    {
+      "rank": 21,
+      "name": "大和田 ソウ",
+      "category": "農業",
+      "score": "64.2"
+    },
+    {
+      "rank": 22,
+      "name": "Lily",
+      "category": "語学",
+      "score": "62.8"
+    },
+    {
+      "rank": 23,
+      "name": "桜庭 ジュン",
+      "category": "不動産",
+      "score": "61.4"
+    },
+    {
+      "rank": 24,
+      "name": "有川 まこと",
+      "category": "物流",
+      "score": "60.0"
+    },
+    {
+      "rank": 25,
+      "name": "KENZO",
+      "category": "格闘技",
+      "score": "58.6"
+    },
+    {
+      "rank": 26,
+      "name": "水無瀬 あかり",
+      "category": "文学",
+      "score": "57.2"
+    },
+    {
+      "rank": 27,
+      "name": "舘 ヒロ",
+      "category": "自動車",
+      "score": "55.8"
+    },
+    {
+      "rank": 28,
+      "name": "藤堂 さつき",
+      "category": "地方創生",
+      "score": "54.4"
+    },
+    {
+      "rank": 29,
+      "name": "NAOTO",
+      "category": "写真",
+      "score": "53.0"
+    },
+    {
+      "rank": 30,
+      "name": "川西 みのり",
+      "category": "福祉",
+      "score": "51.6"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+/* ガイド類。誌面レイヤーの上に重ねるだけで、誌面には影響しない */
+.mg-guides { position: absolute; inset: 0; pointer-events: none; z-index: 50; }
+.mg-guide { position: absolute; }
+
+.mg-guide--trim {
+  inset: var(--bleed);
+  outline: 0.25mm dashed rgba(0, 160, 233, 0.85);
+  outline-offset: 0;
+}
+.mg-guide--trim::before {
+  content: '';
+  position: absolute;
+  inset: calc(var(--bleed) * -1);
+  outline: 0.25mm solid rgba(233, 30, 99, 0.6);
+}
+.mg-guide--safety {
+  inset: calc(var(--bleed) + var(--safety));
+  outline: 0.25mm dashed rgba(0, 170, 90, 0.9);
+}
+.mg-guide--gutter {
+  top: 0;
+  bottom: 0;
+  left: calc(50% - var(--gutter-guard));
+  width: calc(var(--gutter-guard) * 2);
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(255, 152, 0, 0.16) 0 2mm,
+    rgba(255, 152, 0, 0.04) 2mm 4mm
+  );
+  border-left: 0.25mm solid rgba(255, 152, 0, 0.7);
+  border-right: 0.25mm solid rgba(255, 152, 0, 0.7);
+}
+.mg-guide--grid {
+  inset: calc(var(--bleed) + var(--m-top)) calc(var(--bleed) + var(--m-outer))
+    calc(var(--bleed) + var(--m-bottom));
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  column-gap: var(--col-gap);
+}
+.mg-guide--grid span { background: rgba(0, 120, 255, 0.07); border-left: 0.2mm solid rgba(0, 120, 255, 0.22); }
+
+/* ---- トンボ ---- */
+.mg-marksheet {
+  --mark-space: 8mm;
+  position: relative;
+  padding: var(--mark-space);
+  background: #fff;
+  width: max-content;
+}
+.mg-marks { position: absolute; inset: 0; pointer-events: none; }
+.mg-mark { position: absolute; }
+/* コーナートンボ：仕上がり位置から外向きに伸びる直交線 */
+.mg-mark::before, .mg-mark::after { content: ''; position: absolute; background: #000; }
+.mg-mark::before { width: 6mm; height: 0.2mm; }
+.mg-mark::after { width: 0.2mm; height: 6mm; }
+
+.mg-mark--tl { top: calc(var(--mark-space) + var(--bleed)); left: calc(var(--mark-space) + var(--bleed)); }
+.mg-mark--tl::before { right: 0; top: 0; }
+.mg-mark--tl::after { left: 0; bottom: 0; }
+.mg-mark--tr { top: calc(var(--mark-space) + var(--bleed)); right: calc(var(--mark-space) + var(--bleed)); }
+.mg-mark--tr::before { left: 0; top: 0; }
+.mg-mark--tr::after { right: 0; bottom: 0; }
+.mg-mark--bl { bottom: calc(var(--mark-space) + var(--bleed)); left: calc(var(--mark-space) + var(--bleed)); }
+.mg-mark--bl::before { right: 0; bottom: 0; }
+.mg-mark--bl::after { left: 0; top: 0; }
+.mg-mark--br { bottom: calc(var(--mark-space) + var(--bleed)); right: calc(var(--mark-space) + var(--bleed)); }
+.mg-mark--br::before { left: 0; bottom: 0; }
+.mg-mark--br::after { right: 0; top: 0; }
+/* センタートンボ */
+.mg-mark--ct { top: 0; left: 50%; height: var(--mark-space); width: 0.2mm; background: #000; }
+.mg-mark--cb { bottom: 0; left: 50%; height: var(--mark-space); width: 0.2mm; background: #000; }
+.mg-mark--cl { left: 0; top: 50%; width: var(--mark-space); height: 0.2mm; background: #000; }
+.mg-mark--cr { right: 0; top: 50%; width: var(--mark-space); height: 0.2mm; background: #000; }
+.mg-mark--ct::before, .mg-mark--ct::after,
+.mg-mark--cb::before, .mg-mark--cb::after,
+.mg-mark--cl::before, .mg-mark--cl::after,
+.mg-mark--cr::before, .mg-mark--cr::after { content: none; }

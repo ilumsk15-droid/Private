@@ -1,0 +1,186 @@
+{
+  "cover2": {
+    "label": "広告",
+    "brand": "NAGARE COFFEE",
+    "theme": "light",
+    "image": {
+      "src": "/images/issue-001/ad-cover2.svg",
+      "alt": "広告ビジュアル",
+      "credit": "PHOTO: 広告主提供",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "placedWidthMm": 216
+    },
+    "copy": "淹れる時間だけは、\n誰にも渡さない。",
+    "body": "一杯分ずつ焙煎する定期便。焙煎日から七日以内に届きます。",
+    "url": "nagare-coffee.example.com",
+    "qr": {
+      "url": "https://example.com/ads/nagare-coffee",
+      "label": "初回無料の申し込みはこちら",
+      "size": 20
+    }
+  },
+  "spread": {
+    "label": "広告",
+    "brand": "KOMAGATA MOTORS",
+    "theme": "light",
+    "image": {
+      "src": "/images/issue-001/ad-spread.svg",
+      "alt": "見開き広告ビジュアル",
+      "credit": "PHOTO: 広告主提供",
+      "fit": "cover",
+      "spread": true,
+      "gutterShift": 0,
+      "placedWidthMm": 426
+    },
+    "copy": "動くことを、\nやめない。",
+    "body": "新型 KM-9。都市のためのコンパクトEV、2026年春発売。",
+    "qr": {
+      "url": "https://example.com/ads/komagata-km9",
+      "label": "先行予約・試乗のご案内",
+      "size": 22
+    }
+  },
+  "back": {
+    "label": "広告",
+    "brand": "SHIROSE DENIM",
+    "image": {
+      "src": "/images/issue-001/ad-back.svg",
+      "alt": "裏表紙広告ビジュアル",
+      "credit": "PHOTO: 広告主提供",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "placedWidthMm": 216
+    },
+    "copy": "十年目から、\n本題に入る。",
+    "body": "岡山の工場で織り、直営店だけで売るデニム。",
+    "url": "shirose-denim.example.com",
+    "qr": {
+      "url": "https://example.com/ads/shirose-denim",
+      "label": "店舗と在庫を見る",
+      "size": 20
+    },
+    "theme": "light"
+  },
+  "tieup": {
+    "label": "タイアップ広告",
+    "brand": "MIYABI MACHINE TOOLS",
+    "title": "金型が、\n動画を変えた",
+    "titleEn": "SPONSORED BY MIYABI MACHINE TOOLS",
+    "lead": "「原価を見せる」という手法は、製造の現場を知らなければ成立しない。工作機械メーカーの視点から、その変化を聞いた。",
+    "images": [
+      {
+        "src": "/images/issue-001/tieup-01.svg",
+        "alt": "工場での作業風景",
+        "credit": "PHOTO: 広告主提供",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 88
+      },
+      {
+        "src": "/images/issue-001/tieup-02.svg",
+        "alt": "製品のディテール",
+        "credit": "PHOTO: 広告主提供",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 88
+      }
+    ],
+    "qr": {
+      "url": "https://example.com/ads/miyabi",
+      "label": "導入事例を見る",
+      "size": 20
+    },
+    "body": "## 見せられる工場が増えている\nここ三年で、撮影を受け入れる工場が明らかに増えました。以前は「企業秘密だから」と断られていたものが、いまは「見せた方が採用に効く」という判断に変わっている。\n\n## 精度を数字で語れるか\n工作機械の世界では、ミクロン単位の精度が価格を決めます。ところが、その差を言葉で説明するのは非常に難しい。動画で実測値を出す手法が広まったことは、我々にとっても追い風になりました。\n\n> 「良いものです」ではなく「〇〇ミクロンです」と言えるようになった。\n\n## 若い作り手へ\n試作を四十回やり直したという話が本誌に出てきますが、あれは製造側から見ると理想的な関係です。回数を重ねられる相手とは、良いものができる。当社は少量の試作にも対応していますので、まずは相談していただければと思います。"
+  },
+  "paid": {
+    "label": "PR",
+    "title": "注目の経営者",
+    "titleEn": "SPONSORED PROFILE",
+    "people": [
+      {
+        "name": "藤井 リョウスケ",
+        "title": "代表取締役",
+        "org": "株式会社ハコビト",
+        "body": "物流の受発注をスマートフォンだけで完結させるサービスを提供。導入企業は三年で八百社を超えた。「現場が使えないものは、どれだけ機能が多くても意味がない」が口癖。",
+        "portrait": {
+          "src": "/images/issue-001/face-21.svg",
+          "alt": "藤井リョウスケ氏",
+          "credit": "PHOTO: 広告主提供",
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 26
+        },
+        "qr": {
+          "url": "https://example.com/pr/hakobito",
+          "label": "会社情報",
+          "size": 16
+        }
+      },
+      {
+        "name": "小関 ナオ",
+        "title": "ファウンダー",
+        "org": "NIJI STUDIO",
+        "body": "地方の小規模事業者向けに動画制作を月額で提供。契約数は四百件。「一本三十万円より、月三万円の方が続く」という考え方で設計されている。",
+        "portrait": {
+          "src": "/images/issue-001/face-22.svg",
+          "alt": "小関ナオ氏",
+          "credit": "PHOTO: 広告主提供",
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 26
+        },
+        "qr": {
+          "url": "https://example.com/pr/niji-studio",
+          "label": "会社情報",
+          "size": 16
+        }
+      },
+      {
+        "name": "梅木 ハルカ",
+        "title": "CEO",
+        "org": "tsumugi inc.",
+        "body": "クリエイター向けの会計サービス。確定申告の自動化から始まり、現在は事業計画の作成支援まで扱う。利用者は一万二千人。",
+        "portrait": {
+          "src": "/images/issue-001/face-23.svg",
+          "alt": "梅木ハルカ氏",
+          "credit": "PHOTO: 広告主提供",
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 26
+        },
+        "qr": {
+          "url": "https://example.com/pr/tsumugi",
+          "label": "会社情報",
+          "size": 16
+        }
+      },
+      {
+        "name": "guest slot",
+        "title": "募集中",
+        "org": "有料掲載枠",
+        "body": "この枠は有料掲載枠です。掲載をご希望の方は編集部までお問い合わせください。掲載内容は編集部の審査を経て決定します。",
+        "portrait": {
+          "src": null,
+          "alt": "掲載枠のプレースホルダー",
+          "credit": "PHOTO: —",
+          "fit": "cover",
+          "spread": false,
+          "gutterShift": 0,
+          "placedWidthMm": 26
+        },
+        "qr": {
+          "url": null,
+          "label": "掲載のお問い合わせ"
+        }
+      }
+    ]
+  }
+}

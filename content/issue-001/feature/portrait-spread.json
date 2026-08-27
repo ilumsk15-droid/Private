@@ -1,0 +1,18 @@
+{
+  "image": {
+    "src": "/images/issue-001/feature-spread-02.svg",
+    "alt": "湊ハルキの大型ポートレート",
+    "credit": "PHOTO: THE INFLUENCER",
+    "fit": "cover",
+    "spread": true,
+    "gutterShift": 0,
+    "focus": {
+      "x": 38,
+      "y": 35
+    },
+    "placedWidthMm": 426
+  },
+  "overlayTitle": "湊ハルキという現象",
+  "overlayQuote": "「バズらせ方は教えられる。続け方は、たぶん誰にも教えられない」",
+  "align": "right"
+}

@@ -1,0 +1,179 @@
+{
+  "title": "目次",
+  "titleEn": "CONTENTS",
+  "image": {
+    "src": "/images/issue-001/contents.svg",
+    "alt": "目次ページのイメージカット",
+    "credit": "PHOTO: THE INFLUENCER",
+    "fit": "cover",
+    "spread": false,
+    "gutterShift": 0,
+    "placedWidthMm": 88
+  },
+  "note": "掲載内容・ページは編集の都合により変更となる場合があります。本誌の一部はAIによる生成・編集を経て制作されています。",
+  "entries": [
+    {
+      "page": 6,
+      "section": "OPENING",
+      "kicker": "EDITOR'S LETTER",
+      "title": "AIが編集長になる日",
+      "subtitle": "この雑誌がどう作られているか"
+    },
+    {
+      "page": 8,
+      "section": "OPENING",
+      "kicker": "PROLOGUE",
+      "title": "その人が動くと、市場が動く"
+    },
+    {
+      "page": 10,
+      "section": "COVER FEATURE",
+      "kicker": "PORTRAIT",
+      "title": "湊ハルキという現象"
+    },
+    {
+      "page": 12,
+      "section": "COVER FEATURE",
+      "kicker": "PROFILE",
+      "title": "実験を止めない人"
+    },
+    {
+      "page": 14,
+      "section": "COVER FEATURE",
+      "kicker": "INTERVIEW 1",
+      "title": "数字を追うのをやめた日"
+    },
+    {
+      "page": 16,
+      "section": "COVER FEATURE",
+      "kicker": "INTERVIEW 2",
+      "title": "会社をやると、動画が変わる"
+    },
+    {
+      "page": 18,
+      "section": "COVER FEATURE",
+      "kicker": "CHRONICLE",
+      "title": "23年の年表"
+    },
+    {
+      "page": 20,
+      "section": "COVER FEATURE",
+      "kicker": "NUMBERS",
+      "title": "数字で見る湊ハルキ"
+    },
+    {
+      "page": 22,
+      "section": "COVER FEATURE",
+      "kicker": "BUSINESS",
+      "title": "四つの事業"
+    },
+    {
+      "page": 23,
+      "section": "COVER FEATURE",
+      "kicker": "NETWORK",
+      "title": "人物相関図"
+    },
+    {
+      "page": 24,
+      "section": "COVER FEATURE",
+      "kicker": "TURNING POINT",
+      "title": "登録者ゼロからの三度目"
+    },
+    {
+      "page": 26,
+      "section": "COVER FEATURE",
+      "kicker": "A DAY",
+      "title": "ある一日"
+    },
+    {
+      "page": 27,
+      "section": "COVER FEATURE",
+      "kicker": "TOOLS",
+      "title": "仕事道具八選"
+    },
+    {
+      "page": 28,
+      "section": "COVER FEATURE",
+      "kicker": "WORDS",
+      "title": "編集部が選ぶ名言"
+    },
+    {
+      "page": 30,
+      "section": "COVER FEATURE",
+      "kicker": "VOICES",
+      "title": "彼を知る七人"
+    },
+    {
+      "page": 31,
+      "section": "COVER FEATURE",
+      "kicker": "WATCH",
+      "title": "この三本から見る"
+    },
+    {
+      "page": 32,
+      "section": "COVER FEATURE",
+      "kicker": "Q & A",
+      "title": "これから五年の話"
+    },
+    {
+      "page": 36,
+      "section": "SECOND HALF",
+      "kicker": "DIALOGUE",
+      "title": "作り手と売り手の対談"
+    },
+    {
+      "page": 38,
+      "section": "SECOND HALF",
+      "kicker": "ROUNDTABLE",
+      "title": "縦型動画は文化を変えたか"
+    },
+    {
+      "page": 40,
+      "section": "SECOND HALF",
+      "kicker": "AI DIALOGUE",
+      "title": "AIバーチャル対談"
+    },
+    {
+      "page": 44,
+      "section": "RANKING",
+      "kicker": "TOP 10",
+      "title": "影響力ランキング TOP10"
+    },
+    {
+      "page": 46,
+      "section": "RANKING",
+      "kicker": "TOP 30",
+      "title": "影響力ランキング 11–30位"
+    },
+    {
+      "page": 49,
+      "section": "RANKING",
+      "kicker": "POSITIONING",
+      "title": "勢力図2026"
+    },
+    {
+      "page": 50,
+      "section": "RANKING",
+      "kicker": "DATA",
+      "title": "データで見る市場"
+    },
+    {
+      "page": 56,
+      "section": "SECOND HALF",
+      "kicker": "SURVEY",
+      "title": "読者アンケート"
+    },
+    {
+      "page": 62,
+      "section": "BACK",
+      "kicker": "NEXT",
+      "title": "次号予告"
+    },
+    {
+      "page": 63,
+      "section": "BACK",
+      "kicker": "COLOPHON",
+      "title": "奥付"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "湊ハルキを取り巻く人々",
+  "titleEn": "NETWORK",
+  "lead": "一人で作っているように見えて、実際には十数人の判断が一本の動画に入っている。",
+  "center": {
+    "name": "湊 ハルキ",
+    "role": "ミナトラボ 代表"
+  },
+  "note": "図は本人および関係者への取材をもとに編集部が作成。関係の濃淡は掲載の都合上、簡略化している。",
+  "nodes": [
+    {
+      "name": "神谷 リョウ",
+      "role": "チーフ編集",
+      "relation": "創業メンバー",
+      "group": "core",
+      "angle": -90,
+      "distance": 0.62
+    },
+    {
+      "name": "戸田 まき",
+      "role": "D2C事業部長",
+      "relation": "元バイヤー",
+      "group": "core",
+      "angle": -30,
+      "distance": 0.78
+    },
+    {
+      "name": "沢渡 健",
+      "role": "CFO",
+      "relation": "2023年参画",
+      "group": "core",
+      "angle": 30,
+      "distance": 0.78
+    },
+    {
+      "name": "アカリ",
+      "role": "クリエイター",
+      "relation": "LAB FUND 1期",
+      "group": "sub",
+      "angle": 90,
+      "distance": 0.66
+    },
+    {
+      "name": "三隅 工業",
+      "role": "製造パートナー",
+      "relation": "金型・生産",
+      "group": "sub",
+      "angle": 150,
+      "distance": 0.8
+    },
+    {
+      "name": "白瀬 律",
+      "role": "本誌編集長",
+      "relation": "取材を通じて",
+      "group": "sub",
+      "angle": -150,
+      "distance": 0.8
+    }
+  ]
+}

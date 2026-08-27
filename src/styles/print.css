@@ -1,0 +1,20 @@
+/* PDF出力・印刷専用。画面プレビュー用のUIとは完全に分ける */
+.print-doc { background: #fff; }
+.print-sheet {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fff;
+  break-after: page;
+  page-break-after: always;
+}
+.print-sheet:last-child { break-after: auto; page-break-after: auto; }
+.print-doc .mg-guides { display: none; }
+
+@media print {
+  html, body { background: #fff; margin: 0; padding: 0; }
+  .app, .topbar, .sidebar, .inspector { display: none !important; }
+  .print-sheet { box-shadow: none; }
+}

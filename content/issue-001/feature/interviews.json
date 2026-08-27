@@ -1,0 +1,48 @@
+{
+  "part1": {
+    "title": "数字を追うのを\nやめた日",
+    "titleEn": "INTERVIEW 01",
+    "lead": "登録者八十万人。伸ばし方が分かった瞬間に、彼は全部の動画を消した。その一年間、何をしていたのか。",
+    "columns": 3,
+    "pullQuote": "型が分かるというのは、実は危険な状態だと思う。",
+    "image": {
+      "src": "/images/issue-001/scene-06.svg",
+      "alt": "インタビュー中の湊ハルキ",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "focus": {
+        "x": 50,
+        "y": 40
+      },
+      "placedWidthMm": 178
+    },
+    "body": {
+      "$ref": "feature/interview-1.md"
+    }
+  },
+  "part2": {
+    "title": "会社をやると、\n動画が変わる",
+    "titleEn": "INTERVIEW 02",
+    "lead": "五十八人の給料。四つの事業。作る側に回ってから、彼の言葉は明らかに慎重になった。",
+    "columns": 3,
+    "pullQuote": "批評する側から、作る側に立場が変わると、言葉が慎重になる。",
+    "image": {
+      "src": "/images/issue-001/scene-07.svg",
+      "alt": "会議中の様子",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "focus": {
+        "x": 45,
+        "y": 45
+      },
+      "placedWidthMm": 178
+    },
+    "body": {
+      "$ref": "feature/interview-2.md"
+    }
+  }
+}

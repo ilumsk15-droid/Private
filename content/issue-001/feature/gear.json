@@ -1,0 +1,120 @@
+{
+  "title": "仕事道具八選",
+  "titleEn": "TOOLS OF THE TRADE",
+  "lead": "「派手な機材は要らない。毎日触るものだけ良いものにする」",
+  "note": "価格・仕様は取材時点のもの。掲載メーカーはすべて実在しない架空の名称です。",
+  "items": [
+    {
+      "name": "計量スケール 0.01g",
+      "brand": "TANIYA",
+      "body": "検証動画の信頼性はここで決まる。同型を三台持ち、毎月校正に出している。",
+      "image": {
+        "src": "/images/issue-001/gear-01.svg",
+        "alt": "計量スケール 0.01gの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "旋盤（卓上型）",
+      "brand": "MISUMI WORKS",
+      "body": "実家の工場と同じ型。自社製品の試作は必ずこれで一度削る。",
+      "image": {
+        "src": "/images/issue-001/gear-02.svg",
+        "alt": "旋盤（卓上型）の写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "ハンディカム",
+      "brand": "SONY",
+      "body": "取材の記録用。画質より起動の速さで選んだ。",
+      "image": {
+        "src": "/images/issue-001/gear-03.svg",
+        "alt": "ハンディカムの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "三色ボールペン",
+      "brand": "無印良品",
+      "body": "企画メモ専用。赤は却下、青は保留、黒は採用。",
+      "image": {
+        "src": "/images/issue-001/gear-04.svg",
+        "alt": "三色ボールペンの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "A6方眼ノート",
+      "brand": "ロディア",
+      "body": "一日十件の企画を書く。年間で十二冊使う。",
+      "image": {
+        "src": "/images/issue-001/gear-05.svg",
+        "alt": "A6方眼ノートの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "耐熱グローブ",
+      "brand": "MINATO TOOLS",
+      "body": "自社製品の第二弾。試作を四十回やり直した。",
+      "image": {
+        "src": "/images/issue-001/gear-06.svg",
+        "alt": "耐熱グローブの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "ノイズキャンセリングヘッドホン",
+      "brand": "BOSE",
+      "body": "編集用。移動中は必ずこれで音だけ確認する。",
+      "image": {
+        "src": "/images/issue-001/gear-07.svg",
+        "alt": "ノイズキャンセリングヘッドホンの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    },
+    {
+      "name": "測定用マイクロスコープ",
+      "brand": "KEYENCE",
+      "body": "破断面を見るために導入。動画の説得力が一段変わった。",
+      "image": {
+        "src": "/images/issue-001/gear-08.svg",
+        "alt": "測定用マイクロスコープの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 44
+      }
+    }
+  ]
+}

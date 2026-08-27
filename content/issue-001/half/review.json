@@ -1,0 +1,103 @@
+{
+  "title": "編集部レビュー",
+  "titleEn": "EDITORS' REVIEW",
+  "lead": "今月、編集部員が実際に使い、見て、読んだものから六点。点数より、どこが良くてどこが駄目かを書いた。",
+  "items": [
+    {
+      "title": "MINATO TOOLS 耐熱グローブ",
+      "subtitle": "D2C / ¥4,800",
+      "score": 4.5,
+      "verdict": "縫製は文句なし。サイズ展開が三つしかないのが惜しい。",
+      "body": "実際に半年使った。指先の摩耗がほとんど出ておらず、価格に対する耐久性は高い。ただし女性編集部員にはSでも大きく、選べないという不満が出た。",
+      "image": {
+        "src": "/images/issue-001/gear-09.svg",
+        "alt": "耐熱グローブ",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      }
+    },
+    {
+      "title": "縦型動画編集アプリ「Kirinuki」",
+      "subtitle": "アプリ / 月額¥1,200",
+      "score": 3.5,
+      "verdict": "速いが、細かい調整ができない。",
+      "body": "自動で切り抜きを提案してくれる速度は圧倒的。一方で、提案を却下した後の手動調整が弱く、結局別のアプリに移すことになった。",
+      "image": {
+        "src": "/images/issue-001/thumb-24.svg",
+        "alt": "編集アプリの画面",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      }
+    },
+    {
+      "title": "書籍『内訳の経済学』",
+      "subtitle": "書籍 / ¥2,200",
+      "score": 4.0,
+      "verdict": "前半三章だけで元が取れる。",
+      "body": "原価構成の開示が消費者行動に与える影響を、実証データで扱った一冊。後半の政策提言はやや駆け足だが、前半の分析は本誌の読者に強く薦めたい。",
+      "image": {
+        "src": "/images/issue-001/gallery-07.svg",
+        "alt": "書籍の表紙",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      }
+    },
+    {
+      "title": "配信用マイク AURA-1",
+      "subtitle": "機材 / ¥28,000",
+      "score": 3.0,
+      "verdict": "音は良い。付属アームが弱い。",
+      "body": "収録音のノイズ処理は同価格帯で最良。ただしアームがマイク本体の重量に負けて徐々に下がるため、別売りのスタンドが実質必須になる。",
+      "image": {
+        "src": "/images/issue-001/gear-10.svg",
+        "alt": "マイクの写真",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      }
+    },
+    {
+      "title": "実験室ラボ 企画設計コース",
+      "subtitle": "オンライン講座 / ¥49,800",
+      "score": 4.5,
+      "verdict": "課題の添削が想像より丁寧。",
+      "body": "全八回のうち、五回が課題提出と添削に充てられている。動画を見るだけの講座とは体験がまったく違う。受講の負荷は高いので、時間を確保してから始めたい。",
+      "image": {
+        "src": "/images/issue-001/thumb-25.svg",
+        "alt": "講座の画面",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      }
+    },
+    {
+      "title": "ポッドキャスト『原価の話』",
+      "subtitle": "番組 / 無料",
+      "score": 4.0,
+      "verdict": "通勤に最適。ただし更新が不定期。",
+      "body": "製造業の担当者が匿名で原価の内実を話す番組。一本三十分前後で、専門用語の解説が丁寧。更新が月に一〜四本と幅があるのが唯一の難点。",
+      "image": {
+        "src": "/images/issue-001/thumb-26.svg",
+        "alt": "番組のアートワーク",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      }
+    }
+  ]
+}

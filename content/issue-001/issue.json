@@ -1,0 +1,503 @@
+{
+  "id": "issue-001",
+  "issueLine": "ISSUE 001",
+  "title": "影響力は、どこから来るのか",
+  "subtitle": "巻頭大特集：湊ハルキ",
+  "releaseDate": "2026年2月28日",
+  "pageCount": 64,
+  "qr": {
+    "trackingBase": null,
+    "trackingParams": {
+      "utm_source": "magazine",
+      "utm_medium": "print",
+      "utm_campaign": "issue-001"
+    }
+  },
+  "sections": [
+    {
+      "id": "cover",
+      "title": "COVER",
+      "titleEn": "COVER",
+      "color": "#C8102E"
+    },
+    {
+      "id": "front",
+      "title": "OPENING",
+      "titleEn": "OPENING",
+      "color": "#B99049"
+    },
+    {
+      "id": "feature",
+      "title": "巻頭特集 湊ハルキ",
+      "titleEn": "COVER FEATURE",
+      "color": "#C8102E"
+    },
+    {
+      "id": "half",
+      "title": "INFLUENCERS NOW",
+      "titleEn": "SECOND HALF",
+      "color": "#4A6D9B"
+    },
+    {
+      "id": "ranking",
+      "title": "影響力ランキング",
+      "titleEn": "THE INFLUENCE 30",
+      "color": "#3F6B5A"
+    },
+    {
+      "id": "ad",
+      "title": "ADVERTISEMENT",
+      "titleEn": "AD",
+      "color": "#8A5A78"
+    },
+    {
+      "id": "back",
+      "title": "BACK MATTER",
+      "titleEn": "BACK",
+      "color": "#6C6F78"
+    }
+  ],
+  "pages": [
+    {
+      "template": "cover-portrait",
+      "section": "cover",
+      "span": 1,
+      "note": "P1 表紙。人物写真を差し替えるだけで新しい号の顔になる",
+      "data": {
+        "$ref": "cover.json"
+      }
+    },
+    {
+      "template": "ad-single",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ad": true,
+        "ai": false,
+        "draft": false
+      },
+      "note": "P2 表2（表紙裏）広告",
+      "data": {
+        "$ref": "ads/ads.json#cover2"
+      }
+    },
+    {
+      "template": "feature-door",
+      "section": "feature",
+      "span": 1,
+      "note": "P3 特集扉",
+      "data": {
+        "$ref": "editorial.json#door"
+      },
+      "surface": "dark"
+    },
+    {
+      "template": "contents",
+      "section": "front",
+      "span": 2,
+      "note": "P4–5 目次。ページ番号は台割に合わせて手動更新する",
+      "data": {
+        "$ref": "toc.json"
+      }
+    },
+    {
+      "template": "editors-letter",
+      "section": "front",
+      "span": 2,
+      "note": "P6–7 編集長メッセージ／AIが編集長の説明",
+      "data": {
+        "$ref": "editorial.json#letter"
+      }
+    },
+    {
+      "template": "photo-spread-full",
+      "section": "feature",
+      "span": 2,
+      "note": "P8–9 巻頭特集プロローグ",
+      "data": {
+        "$ref": "editorial.json#prologue"
+      }
+    },
+    {
+      "template": "photo-spread-full",
+      "section": "feature",
+      "span": 2,
+      "note": "P10–11 大型人物写真",
+      "data": {
+        "$ref": "feature/portrait-spread.json"
+      }
+    },
+    {
+      "template": "profile",
+      "section": "feature",
+      "span": 2,
+      "note": "P12–13 写真＋プロフィール",
+      "data": {
+        "$ref": "feature/profile.json"
+      }
+    },
+    {
+      "template": "interview-long",
+      "section": "feature",
+      "span": 2,
+      "note": "P14–15 ロングインタビュー前編",
+      "data": {
+        "$ref": "feature/interviews.json#part1"
+      }
+    },
+    {
+      "template": "interview-long",
+      "section": "feature",
+      "span": 2,
+      "note": "P16–17 ロングインタビュー後編",
+      "data": {
+        "$ref": "feature/interviews.json#part2"
+      }
+    },
+    {
+      "template": "timeline",
+      "section": "feature",
+      "span": 2,
+      "note": "P18–19 経歴・年表",
+      "data": {
+        "$ref": "feature/timeline.json"
+      }
+    },
+    {
+      "template": "numbers",
+      "section": "feature",
+      "span": 2,
+      "surface": "alt",
+      "note": "P20–21 数字で見る人物",
+      "data": {
+        "$ref": "feature/numbers.json"
+      }
+    },
+    {
+      "template": "works",
+      "section": "feature",
+      "span": 1,
+      "note": "P22 事業・活動実績",
+      "data": {
+        "$ref": "feature/works.json"
+      }
+    },
+    {
+      "template": "relationship-map",
+      "section": "feature",
+      "span": 1,
+      "note": "P23 人物相関図",
+      "data": {
+        "$ref": "feature/relations.json"
+      }
+    },
+    {
+      "template": "feature-article",
+      "section": "feature",
+      "span": 2,
+      "note": "P24–25 ターニングポイント",
+      "data": {
+        "$ref": "feature/turning-point.json"
+      }
+    },
+    {
+      "template": "daily-schedule",
+      "section": "feature",
+      "span": 1,
+      "note": "P26 1日のスケジュール",
+      "data": {
+        "$ref": "feature/schedule.json"
+      }
+    },
+    {
+      "template": "gear",
+      "section": "feature",
+      "span": 1,
+      "note": "P27 愛用品・仕事道具",
+      "data": {
+        "$ref": "feature/gear.json"
+      }
+    },
+    {
+      "template": "quote-collection",
+      "section": "feature",
+      "span": 2,
+      "surface": "alt",
+      "note": "P28–29 編集部が選ぶ名言",
+      "data": {
+        "$ref": "feature/quotes.json"
+      }
+    },
+    {
+      "template": "voices",
+      "section": "feature",
+      "span": 1,
+      "note": "P30 関係者コメント",
+      "data": {
+        "$ref": "feature/voices.json"
+      }
+    },
+    {
+      "template": "video-qr",
+      "section": "feature",
+      "span": 1,
+      "note": "P31 推奨動画＋QR",
+      "data": {
+        "$ref": "feature/videos.json"
+      }
+    },
+    {
+      "template": "interview-qa",
+      "section": "feature",
+      "span": 1,
+      "note": "P32 今後の展望（Q&A）",
+      "data": {
+        "$ref": "feature/qa.json"
+      }
+    },
+    {
+      "template": "photo-gallery",
+      "section": "feature",
+      "span": 1,
+      "note": "P33 特集を締める写真ギャラリー",
+      "data": {
+        "$ref": "editorial.json#gallery"
+      }
+    },
+    {
+      "template": "section-divider",
+      "section": "half",
+      "span": 1,
+      "note": "P34 後半セクション扉",
+      "data": {
+        "$ref": "editorial.json#dividerSecondHalf"
+      },
+      "surface": "dark"
+    },
+    {
+      "template": "quote-solo",
+      "section": "half",
+      "span": 1,
+      "note": "P35 名言1点見せ",
+      "data": {
+        "$ref": "feature/quote-hero.json"
+      },
+      "surface": "dark"
+    },
+    {
+      "template": "dialogue-two",
+      "section": "half",
+      "span": 2,
+      "note": "P36–37 2名対談",
+      "data": {
+        "$ref": "half/dialogue.json"
+      }
+    },
+    {
+      "template": "roundtable",
+      "section": "half",
+      "span": 2,
+      "note": "P38–39 座談会",
+      "data": {
+        "$ref": "half/roundtable.json"
+      }
+    },
+    {
+      "template": "ai-dialogue",
+      "section": "half",
+      "span": 2,
+      "flags": {
+        "ai": true,
+        "ad": false,
+        "draft": false
+      },
+      "note": "P40–41 AIバーチャル対談",
+      "data": {
+        "$ref": "half/ai-dialogue.json"
+      }
+    },
+    {
+      "template": "ad-spread",
+      "section": "ad",
+      "span": 2,
+      "flags": {
+        "ad": true,
+        "ai": false,
+        "draft": false
+      },
+      "note": "P42–43 見開き純広告",
+      "data": {
+        "$ref": "ads/ads.json#spread"
+      }
+    },
+    {
+      "template": "ranking-top10",
+      "section": "ranking",
+      "span": 2,
+      "note": "P44–45 TOP10",
+      "data": {
+        "$ref": "ranking/top10.json"
+      }
+    },
+    {
+      "template": "ranking-top30",
+      "section": "ranking",
+      "span": 2,
+      "note": "P46–47 11–30位",
+      "data": {
+        "$ref": "ranking/top30.json"
+      }
+    },
+    {
+      "template": "ranking-detail",
+      "section": "ranking",
+      "span": 1,
+      "note": "P48 ランキング詳細",
+      "data": {
+        "$ref": "ranking/detail.json"
+      }
+    },
+    {
+      "template": "positioning-map",
+      "section": "ranking",
+      "span": 1,
+      "note": "P49 勢力図",
+      "data": {
+        "$ref": "ranking/positioning.json"
+      }
+    },
+    {
+      "template": "data-chart",
+      "section": "ranking",
+      "span": 2,
+      "surface": "alt",
+      "note": "P50–51 グラフ・データ分析",
+      "data": {
+        "$ref": "ranking/data.json"
+      }
+    },
+    {
+      "template": "comparison-table",
+      "section": "ranking",
+      "span": 1,
+      "note": "P52 比較表",
+      "data": {
+        "$ref": "ranking/comparison.json"
+      }
+    },
+    {
+      "template": "video-ranking",
+      "section": "half",
+      "span": 1,
+      "note": "P53 編集部おすすめ動画",
+      "data": {
+        "$ref": "ranking/video-ranking.json"
+      }
+    },
+    {
+      "template": "video-thumbnails",
+      "section": "half",
+      "span": 1,
+      "note": "P54 注目インフルエンサー紹介",
+      "data": {
+        "$ref": "ranking/thumbnails.json"
+      }
+    },
+    {
+      "template": "editors-review",
+      "section": "half",
+      "span": 1,
+      "note": "P55 編集部レビュー",
+      "data": {
+        "$ref": "half/review.json"
+      }
+    },
+    {
+      "template": "survey-results",
+      "section": "half",
+      "span": 2,
+      "note": "P56–57 アンケート・読者参加企画",
+      "data": {
+        "$ref": "half/survey.json"
+      }
+    },
+    {
+      "template": "pros-cons",
+      "section": "half",
+      "span": 1,
+      "note": "P58 賛成・反対",
+      "data": {
+        "$ref": "half/pros-cons.json"
+      }
+    },
+    {
+      "template": "column",
+      "section": "half",
+      "span": 1,
+      "note": "P59 コラム",
+      "data": {
+        "$ref": "half/column.json"
+      }
+    },
+    {
+      "template": "tie-up",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ad": true,
+        "ai": false,
+        "draft": false
+      },
+      "note": "P60 タイアップ記事",
+      "data": {
+        "$ref": "ads/ads.json#tieup"
+      }
+    },
+    {
+      "template": "paid-profile",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ad": true,
+        "ai": false,
+        "draft": false
+      },
+      "note": "P61 有料人物紹介枠",
+      "data": {
+        "$ref": "ads/ads.json#paid"
+      }
+    },
+    {
+      "template": "next-issue",
+      "section": "back",
+      "span": 1,
+      "note": "P62 次号予告",
+      "data": {
+        "$ref": "back/back.json#next"
+      }
+    },
+    {
+      "template": "colophon",
+      "section": "back",
+      "span": 1,
+      "note": "P63 奥付（表3）",
+      "data": {
+        "$ref": "back/back.json#colophon"
+      }
+    },
+    {
+      "template": "cover-back-ad",
+      "section": "ad",
+      "span": 1,
+      "flags": {
+        "ad": true,
+        "ai": false,
+        "draft": false
+      },
+      "note": "P64 裏表紙広告",
+      "data": {
+        "$ref": "ads/ads.json#back"
+      }
+    }
+  ]
+}

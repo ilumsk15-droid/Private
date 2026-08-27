@@ -1,0 +1,151 @@
+{
+  "door": {
+    "eyebrow": "ISSUE 001 / COVER FEATURE",
+    "title": "影響力は、\nどこから来るのか",
+    "titleEn": "THE ANATOMY OF INFLUENCE",
+    "lead": "再生数でも、フォロワー数でもない。ある人物の言葉が、なぜ誰かの行動を変えてしまうのか。創刊号は、その仕組みを一人の人間から解剖する。",
+    "image": {
+      "src": "/images/issue-001/feature-spread-01.svg",
+      "alt": "特集扉の人物写真",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "focus": {
+        "x": 55,
+        "y": 30
+      },
+      "placedWidthMm": 216
+    },
+    "theme": "dark"
+  },
+  "letter": {
+    "title": "AIが編集長になる日",
+    "titleEn": "EDITOR'S LETTER",
+    "portrait": {
+      "src": "/images/issue-001/editor.svg",
+      "alt": "編集長のポートレート",
+      "credit": "PHOTO: 編集部",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "placedWidthMm": 18
+    },
+    "image": {
+      "src": "/images/issue-001/scene-01.svg",
+      "alt": "編集部の制作風景",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "placedWidthMm": 88
+    },
+    "signature": {
+      "name": "白瀬 律",
+      "role": "編集長 / EDITOR IN CHIEF"
+    },
+    "body": "## この雑誌は、半分がAIでできている\n創刊にあたって、いちばん最初に決めたことがある。取材と判断は人間がやる。構成と初稿はAIがやる。そして最終的な責任は、必ず人間が取る。この三行が本誌の制作思想のすべてだ。\n編集部は八人しかいない。それでも六十四ページの雑誌を、月に一冊のペースで出そうとしている。普通なら成立しない計算だが、初稿の生成、事実関係の一次照合、見出し案の量産、レイアウトへの流し込みまでをAIが担うことで、人間の時間は「会いに行くこと」と「判断すること」に集中できる。\n\n## それでも、間違いは人間が拾う\nAIは平気で嘘をつく。だからこの雑誌では、数字と固有名詞が出てくるページには必ず担当者の名前が紐づいている。誰が確認したのかが分からない記事は、たとえ面白くても載せない。読者が本誌を書棚に残す理由は、速さではなく、確かさのほうにあると信じているからだ。\n\n> 速く作ることと、雑に作ることは、まったく別のことだ。\n\n## なぜ紙なのか\n動画は流れていく。タイムラインは一日で消える。だが紙は、意思がなければ捨てられない。ある人物が何を考え、何を作り、何に失敗したのかを、十年後に手に取れる形で残しておくこと。それがインフルエンサーという職業に対して、いま我々ができる最も誠実な仕事だと考えている。\n創刊号の主役は湊ハルキ。二十三歳で最初のチャンネルを畳み、二十六歳で作り直し、いまは四つの事業を回しながら、週に二本の動画を出し続けている人物だ。彼のどこが特別なのかを、六十四ページかけて確かめてほしい。\n\n## 六十四ページという単位\n本誌は六十四ページを基本にしている。理由は単純で、これが「一晩で読み切れて、かつ読み応えがある」ぎりぎりの分量だからだ。三十二ページでは特集が浅くなる。百ページを超えると、多くの人が最後まで辿り着かない。\nこの六十四ページのうち、巻頭の二十三ページを一人の人物に使う。惜しいと思われるかもしれないが、我々はここを削らない。人を薄く三十人載せるより、一人を深く掘るほうが、読者の記憶に残ると考えているからだ。\n\n## 誰に向けて作っているか\n想定している読者は二種類いる。ひとつは、その人物のファン。もうひとつは、その人物の仕事の仕組みを知りたい人だ。この二つは相反するように見えて、実は同じものを求めている。どちらも「本当のところ」を知りたがっている。\nだから本誌には、応援のための美辞麗句を載せない。数字が悪ければ悪いと書くし、失敗は失敗として扱う。それが結果として、いちばん誠実な応援になると思っている。"
+  },
+  "prologue": {
+    "image": {
+      "src": "/images/issue-001/feature-prologue.svg",
+      "alt": "プロローグの見開き写真",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": true,
+      "gutterShift": 0,
+      "focus": {
+        "x": 50,
+        "y": 40
+      },
+      "placedWidthMm": 426
+    },
+    "overlayTitle": "その人が動くと、\n市場が動く",
+    "overlayQuote": "一本の動画が、ある企業の在庫を三日で消した。それは事故ではなく、設計された結果だった。",
+    "align": "left"
+  },
+  "dividerSecondHalf": {
+    "number": "02",
+    "title": "influencers now",
+    "titleEn": "SECOND HALF / INFLUENCERS NOW",
+    "lead": "対談、座談会、AIによるバーチャル対談。作り手たちがいま何を考えているのかを、言葉のまま記録する。",
+    "theme": "accent"
+  },
+  "dividerRanking": {
+    "number": "03",
+    "title": "影響力の地図",
+    "titleEn": "THE INFLUENCE MAP 2026",
+    "lead": "編集部が独自に集計した三十人。順位より、なぜその位置にいるのかを読んでほしい。",
+    "theme": "dark",
+    "image": {
+      "src": "/images/issue-001/scene-05.svg",
+      "alt": "ランキング章の扉写真",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "placedWidthMm": 216
+    }
+  },
+  "gallery": {
+    "title": "撮影の合間に",
+    "titleEn": "OFF THE RECORD",
+    "layout": "mosaic",
+    "images": [
+      {
+        "src": "/images/issue-001/gallery-01.svg",
+        "alt": "撮影スタジオでの一枚",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      },
+      {
+        "src": "/images/issue-001/gallery-02.svg",
+        "alt": "編集作業中の手元",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 105
+      },
+      {
+        "src": "/images/issue-001/gallery-03.svg",
+        "alt": "打ち合わせの様子",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      },
+      {
+        "src": "/images/issue-001/gallery-04.svg",
+        "alt": "倉庫での検品",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      },
+      {
+        "src": "/images/issue-001/gallery-05.svg",
+        "alt": "深夜の収録",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      },
+      {
+        "src": "/images/issue-001/gallery-06.svg",
+        "alt": "移動中の車内",
+        "credit": "PHOTO: THE INFLUENCER",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 52
+      }
+    ]
+  }
+}

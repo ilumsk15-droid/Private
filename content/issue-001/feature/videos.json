@@ -1,0 +1,76 @@
+{
+  "title": "この三本から見る",
+  "titleEn": "START WITH THESE THREE",
+  "lead": "千二百本の中から、編集部が入口として薦める三本。QRから直接視聴できる。",
+  "videos": [
+    {
+      "title": "物流倉庫の内側を42分で全部見せる",
+      "body": "再開後の一本目。伸びなかった三日間の後、二週間で二百万回に達した転機の動画。",
+      "meta": {
+        "date": "2021.05",
+        "length": "42:11",
+        "views": "412万回"
+      },
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-01.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      "qr": {
+        "url": "https://example.com/videos/warehouse-42",
+        "label": "本編を見る（42分）",
+        "size": 18
+      }
+    },
+    {
+      "title": "在庫を3000個抱えた話を全部します",
+      "body": "自社の失敗を数字ごと公開した回。企業案件の単価が二倍になったきっかけでもある。",
+      "meta": {
+        "date": "2024.03",
+        "length": "38:47",
+        "views": "587万回"
+      },
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-02.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      "qr": {
+        "url": "https://example.com/videos/inventory-3000",
+        "label": "本編を見る（38分）",
+        "size": 18
+      }
+    },
+    {
+      "title": "3000円の商品、内訳を1円まで公開する",
+      "body": "原価構成をすべて開示するシリーズの初回。以降、同社の定番フォーマットになった。",
+      "meta": {
+        "date": "2022.09",
+        "length": "29:03",
+        "views": "731万回"
+      },
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-03.svg",
+        "alt": "動画サムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 56
+      },
+      "qr": {
+        "url": "https://example.com/videos/cost-breakdown",
+        "label": "本編を見る（29分）",
+        "size": 18
+      }
+    }
+  ]
+}

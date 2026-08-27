@@ -1,0 +1,20 @@
+{
+  "quote": {
+    "text": "つくり続けている人だけが、\n次の実験に進める。",
+    "source": "MINATO HARUKI / P14 INTERVIEW"
+  },
+  "image": {
+    "src": "/images/issue-001/portrait-02.svg",
+    "alt": "名言ページの人物写真",
+    "credit": "PHOTO: THE INFLUENCER",
+    "fit": "cover",
+    "spread": false,
+    "gutterShift": 0,
+    "focus": {
+      "x": 60,
+      "y": 30
+    },
+    "placedWidthMm": 216
+  },
+  "theme": "dark"
+}

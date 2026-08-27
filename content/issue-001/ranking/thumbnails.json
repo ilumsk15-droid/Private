@@ -1,0 +1,223 @@
+{
+  "title": "今月の注目インフルエンサー",
+  "titleEn": "ON OUR RADAR",
+  "lead": "登録者数ではなく、編集部が「次に来る」と判断した十二組。QRから代表作へ。",
+  "items": [
+    {
+      "title": "園部 リク",
+      "meta": "ガジェット / 12万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-12.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/1",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "九条 まゆ",
+      "meta": "美容 / 31万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-13.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/2",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "timo",
+      "meta": "ゲーム / 88万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-14.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/3",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "柏木 テツ",
+      "meta": "建築 / 9万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-15.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/4",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "野々村 あい",
+      "meta": "子育て / 24万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-16.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/5",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "SHUN",
+      "meta": "アート / 17万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-17.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/6",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "氷室 ケイ",
+      "meta": "医療 / 41万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-18.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/7",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "宮嶋 のぞみ",
+      "meta": "法律 / 15万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-19.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/8",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "大和田 ソウ",
+      "meta": "農業 / 6万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-20.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/9",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "Lily",
+      "meta": "語学 / 52万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-21.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/10",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "桜庭 ジュン",
+      "meta": "不動産 / 28万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-22.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/11",
+        "label": "見る",
+        "size": 16
+      }
+    },
+    {
+      "title": "有川 まこと",
+      "meta": "物流 / 4万人",
+      "thumbnail": {
+        "src": "/images/issue-001/thumb-23.svg",
+        "alt": "注目クリエイターのサムネイル",
+        "credit": "IMAGE: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 34
+      },
+      "qr": {
+        "url": "https://example.com/radar/12",
+        "label": "見る",
+        "size": 16
+      }
+    }
+  ]
+}

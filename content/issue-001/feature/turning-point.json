@@ -1,0 +1,30 @@
+{
+  "title": "登録者ゼロからの三度目",
+  "titleEn": "TURNING POINT",
+  "lead": "事故、決断、そしてまた事故。三度のゼロが、いまの会社の形をつくった。",
+  "columns": 3,
+  "pullQuote": "あれがなかったら、いまも広告収益に八割依存していたと思う。",
+  "images": [
+    {
+      "src": "/images/issue-001/scene-03.svg",
+      "alt": "復帰動画の収録現場",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "placedWidthMm": 88
+    },
+    {
+      "src": "/images/issue-001/scene-04.svg",
+      "alt": "倉庫での作業",
+      "credit": "PHOTO: THE INFLUENCER",
+      "fit": "cover",
+      "spread": false,
+      "gutterShift": 0,
+      "placedWidthMm": 88
+    }
+  ],
+  "body": {
+    "$ref": "feature/turning-point.md"
+  }
+}

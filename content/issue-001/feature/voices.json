@@ -1,0 +1,105 @@
+{
+  "title": "彼を知る七人",
+  "titleEn": "VOICES",
+  "lead": "創業メンバーから家族まで。近い距離にいる人たちの証言。",
+  "comments": [
+    {
+      "name": "神谷 リョウ",
+      "role": "チーフ編集",
+      "body": "一緒に始めた頃から、企画を却下する速さだけは変わらない。三秒で決める。理由は後から説明してくれる。",
+      "portrait": {
+        "src": "/images/issue-001/face-01.svg",
+        "alt": "神谷 リョウのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "戸田 まき",
+      "role": "D2C事業部長",
+      "body": "原価を全部出すと言い出したときは反対しました。今は、あれがブランドの信用になっていると思います。",
+      "portrait": {
+        "src": "/images/issue-001/face-02.svg",
+        "alt": "戸田 まきのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "沢渡 健",
+      "role": "CFO",
+      "body": "経営者としては臆病な方です。手元資金は常に半年分。派手に見えて、財務はかなり保守的。",
+      "portrait": {
+        "src": "/images/issue-001/face-03.svg",
+        "alt": "沢渡 健のポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "三隅 徹",
+      "role": "三隅工業 代表",
+      "body": "試作を四十回やり直した人は初めてでした。うちの職人が根負けしました。",
+      "portrait": {
+        "src": "/images/issue-001/face-04.svg",
+        "alt": "三隅 徹のポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "アカリ",
+      "role": "クリエイター",
+      "body": "返済が売上連動なので、失敗しても人生が終わらない。あの設計に救われました。",
+      "portrait": {
+        "src": "/images/issue-001/face-05.svg",
+        "alt": "アカリのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "久保田 千夏",
+      "role": "広告代理店プランナー",
+      "body": "案件の相談で、まず断られる条件を先に言ってくる。結果的にそれが一番早い。",
+      "portrait": {
+        "src": "/images/issue-001/face-06.svg",
+        "alt": "久保田 千夏のポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    },
+    {
+      "name": "湊 みどり",
+      "role": "母",
+      "body": "小さい頃から、壊すのが好きな子でした。直すのも好きでしたけど。",
+      "portrait": {
+        "src": "/images/issue-001/face-07.svg",
+        "alt": "湊 みどりのポートレート",
+        "credit": "PHOTO: 編集部",
+        "fit": "cover",
+        "spread": false,
+        "gutterShift": 0,
+        "placedWidthMm": 20
+      }
+    }
+  ]
+}
