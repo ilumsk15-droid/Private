@@ -521,7 +521,7 @@ function gauge(cx, cy, r, val, label, sub, a, k, col) {
   txt(label, cx, cy - r - 60, { size: 40, alpha: a, glow: 10 });
   txt(sub, cx, cy, { size: 72, alpha: a * pr(k, .3, .7), glow: 18, glowColor: col, font: SERIF, weight: 900 });
 }
-const EXPG = [['中国', 1171], ['アメリカ', 440], ['ドイツ', 236], ['韓国', 72], ['日本', 2]];
+const EXPG = [['中国', 203], ['アメリカ', 93], ['ドイツ', 69], ['韓国', 37], ['日本', 14]];
 const mound = (() => { const r = rng(3); return Array.from({ length: 900 }, () => { const u = r() * 2 - 1, v = r(); return [u, v, r()]; }); })();
 function drawS6(t, sc) {
   const L = sc.L, dur = sc.dur;
@@ -536,7 +536,7 @@ function drawS6(t, sc) {
   // phase 2: bars
   const b = pr(t, L[3] - .2, .7) * (1 - pr(t, L[7] - .3, .6));
   if (b > 0) {
-    txt('10年間の輸出額の伸び（2013→2023年）', W / 2, 150, { size: 40, alpha: b, glow: 10 });
+    txt('10年間の輸出額の伸び（2004→2014年）', W / 2, 150, { size: 40, alpha: b, glow: 10 });
     const x0 = 520, maxW = 1100;
     EXPG.forEach(([n, v], i) => {
       const y = 280 + i * 130;
@@ -545,11 +545,13 @@ function drawS6(t, sc) {
       txt(n, x0 - 30, y, { size: 44, align: 'right', alpha: b, color: isJ ? '#ffe6a8' : '#fff' });
       ctx.save(); ctx.globalAlpha = b; ctx.fillStyle = CY(.12); ctx.fillRect(x0, y - 30, maxW, 60);
       const col = isC ? GOLD(1) : isJ ? 'rgba(255,140,100,1)' : CY(.95);
-      ctx.shadowColor = col; ctx.shadowBlur = 20; ctx.fillStyle = col; ctx.fillRect(x0, y - 30, Math.max(4, maxW * v / 1171 * k), 60); ctx.restore();
-      if (isJ) keyTag('ほとんど伸びていない', x0 + 30, y, pr(t, L[5] - .4, .6) * b, { size: 34, glowC: 'rgba(255,140,100,1)', lineC: 'rgba(255,160,120,.9)', color: '#ffd9c8' });
+      const bw = Math.max(4, maxW * v / 203 * k);
+      ctx.shadowColor = col; ctx.shadowBlur = 20; ctx.fillStyle = col; ctx.fillRect(x0, y - 30, bw, 60); ctx.restore();
+      const va = pr(t, L[3] + i * .25 + 1.0, .5) * b;
+      if (isC) txt('+203兆円', x0 + bw - 24, y, { size: 46, align: 'right', alpha: pr(t, L[6] - .1, .6) * b, color: '#2a1a00', weight: 900 });
+      else txt(`+${v}兆円`, x0 + bw + 20, y, { size: 38, align: 'left', alpha: va, color: isJ ? '#ffd9c8' : '#e8fbff', glow: 10 });
+      if (isJ) keyTag('わずか', x0 + bw + 230, y, pr(t, L[5] - .4, .6) * b, { size: 34, glowC: 'rgba(255,140,100,1)', lineC: 'rgba(255,160,120,.9)', color: '#ffd9c8' });
     });
-    const ca = pr(t, L[6] - .1, .6) * b;
-    txt('約200兆円', x0 + maxW - 20, 280, { size: 50, align: 'right', alpha: ca, color: '#2a1a00', weight: 900 });
   }
   // phase 3: dust becomes a mountain (chiri-tsumo)
   const m = pr(t, L[7] - .2, .8);
@@ -568,8 +570,9 @@ function drawS6(t, sc) {
     keyTag('ブランドを持たない中小企業', 180, 200, pr(t, L[7], .6), { size: 44 });
     txt('塵も積もれば、数百兆円', W / 2, H * .36, { size: 80, font: SERIF, weight: 900, alpha: pr(t, L[8] + .2, .7), glow: 28, glowColor: GOLD(.9), stroke: 10, spacing: 4 });
   }
-  watermark('仮グラフ：社長共有のグラフに差し替え　※数値は要確認', pr(t, .3, .6));
-  footnote('輸出企業の割合は社長談（要確認）／輸出額：WTO統計をもとに作成（ドル建て・概数）', pr(t, .3, .6));
+  watermark('※輸出企業の割合（約2%／6〜7割）は要確認', pr(t, .3, .6) * (1 - pr(t, L[2] - .2, .6)));
+  footnote('輸出企業の割合：社長談（要確認）', pr(t, .3, .6) * (1 - pr(t, L[2] - .2, .6)));
+  footnote('出典：グローバルパートナーズ会社資料（輸出額の推移・1ドル＝116円換算）', pr(t, L[3] - .2, .7) * (1 - pr(t, L[7] - .3, .6)));
 }
 
 // ---------- Scene 7: exports change Japan ----------
