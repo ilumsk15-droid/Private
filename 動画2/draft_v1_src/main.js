@@ -682,7 +682,7 @@ function drawS9(t, sc) {
       const x = lerp(J[0] - 40 + i * 40, A[0] - 40 + i * 40, k), y = lerp(J[1] - 170, A[1] - 170, k) - Math.sin(k * Math.PI) * 80;
       factory(x, y, 34, pr(t, L[0] + .2, .5) * ya, '#cfefff');
     }
-    keyTag('安い人件費で、ものをつくる', W * .5 - 300, H * .78, pr(t, L[2], .6) * ya, { size: 40 });
+    keyTag('安い人件費で、ものをつくる', W * .5 - 300, H * .78, pr(t, L[2], .6) * ya * (1 - pr(t, L[4] - .5, .4)), { size: 40 });
     const out = pr(t, L[4] - .2, .6) * ya;
     if (out > 0) {
       for (const [p, o, s] of flow) {
