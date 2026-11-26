@@ -5,6 +5,7 @@ const c2 = document.getElementById('c2');
 const ctx = c2.getContext('2d');
 const glc = document.getElementById('gl');
 const TL = await (await fetch('timing.json?' + Date.now())).json();
+const LOGO = new Image(); LOGO.src = 'logo.png'; await LOGO.decode();
 
 // ---------- utils ----------
 const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
@@ -479,13 +480,18 @@ function drawS5(t, sc) {
   const ys = lerp(260, 170, ease(pr(t, L[1] - .3, 1)));
   txt(String(yr), W / 2, yy, { size: ys, font: SERIF, weight: 900, alpha: ya, glow: 40, glowColor: GOLD(.9), spacing: 12 });
   txt('設立', W / 2, yy + ys * .62, { size: 50, alpha: pr(t, 1.9, .5) * (1 - pr(t, L[1] - .4, .4)), spacing: 20 });
-  // logo placeholder
-  const la = pr(t, L[1] + .2, .7) * (1 - pr(t, L[3] - .4, .5));
+  // company logo
+  const la = pr(t, L[1] + .2, .8) * (1 - pr(t, L[3] - .4, .5));
   if (la > 0) {
-    ctx.save(); ctx.globalAlpha = la; ctx.setLineDash([12, 10]); ctx.strokeStyle = 'rgba(255,255,255,.8)'; ctx.lineWidth = 3;
-    ctx.beginPath(); ctx.roundRect(W / 2 - 330, H * .5, 660, 200, 14); ctx.stroke(); ctx.restore();
-    txt('［ 社名・ロゴ ］', W / 2, H * .5 + 85, { size: 54, alpha: la });
-    txt('※会社資料から差し替え', W / 2, H * .5 + 150, { size: 24, weight: 400, alpha: la, color: '#d9f3f7' });
+    const lw = 480, lh = lw * LOGO.height / LOGO.width, cw = lw + 120, ch = lh + 80;
+    const cx = W / 2, cy = H * .53 + lerp(20, 0, eo(la));
+    ctx.save(); ctx.globalAlpha = la;
+    ctx.shadowColor = 'rgba(190,240,255,.8)'; ctx.shadowBlur = 50;
+    ctx.fillStyle = '#ffffff'; ctx.beginPath(); ctx.roundRect(cx - cw / 2, cy - ch / 2, cw, ch, 18); ctx.fill();
+    ctx.shadowBlur = 0; ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(LOGO, cx - lw / 2, cy - lh / 2, lw, lh); ctx.restore();
+    txt('グローバルパートナーズ株式会社', W / 2, cy + ch / 2 + 58, { size: 46, alpha: pr(t, L[1] + .6, .7) * (1 - pr(t, L[3] - .4, .5)), glow: 16, spacing: 4 });
+    txt('（2009年 アリババマーケティング株式会社として設立）', W / 2, cy + ch / 2 + 108, { size: 26, weight: 500, color: '#cdeef4', alpha: pr(t, L[1] + 1.0, .7) * (1 - pr(t, L[3] - .4, .5)) });
   }
   const ma = pr(t, L[1] + .4, .8) * (1 - pr(t, L[3] - .4, .5));
   // export arrows
